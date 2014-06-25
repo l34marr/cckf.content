@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<model i18n:domain="cckf.content"
+ xmlns="http://namespaces.plone.org/supermodel/schema"
+ xmlns:form="http://namespaces.plone.org/supermodel/form"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+  <schema>
+
+    <field name="remoteUrl"
+     type="zope.schema.TextLine">
+      <title i18n:translate="">URL</title>
+      <description i18n:translate="">Link to the Resource.</description>
+      <default>http://</default>
+      <required>False</required>
+    </field>
+
+  </schema>
+
+</model>

@@ -1,0 +1,30 @@
+<html lang="en" xml:lang="en"
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:tal="http://xml.zope.org/namespaces/tal"
+ xmlns:metal="http://xml.zope.org/namespaces/metal"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+ metal:use-macro="context/main_template/macros/master"
+ i18n:domain="cckf.content">
+
+<body>
+
+<metal:content-core fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+
+<div id="parent-fieldname-text"
+ tal:condition="context/text"
+ tal:content="structure python:context.text.output_relative_to(view.context)" />
+
+<p tal:condition="context/remoteUrl">
+  <span i18n:translate="">URL</span>:
+  <a href="#"
+   tal:attributes="href context/remoteUrl"
+   tal:content="context/remoteUrl">http://exmaple.org/</a>
+</p>
+
+  </metal:content-core>
+</metal:core>
+
+</body>
+
+</html>
