@@ -22,6 +22,12 @@
    tal:content="context/remoteUrl">http://exmaple.org/</a>
 </p>
 
+<div class="leadImage"
+ tal:condition="context/image">
+  <img tal:define="scale context/@@images"
+       tal:replace="structure python: scale.scale('image', width=800, height=800).tag(css_class='newsImage')" />
+</div>
+
   </metal:content-core>
 </metal:content-core>
 
