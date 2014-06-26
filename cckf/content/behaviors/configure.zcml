@@ -12,4 +12,12 @@
     for="plone.dexterity.interfaces.IDexterityContent" />
   <adapter factory=".shortname.NameFromCreationDate" />
 
+  <plone:behavior
+    title="Hint Image"
+    description="Adds Image and Image Caption Fields."
+    provides=".custom.IHintImage"
+    factory=".custom.HintImage"
+    for="cckf.content.interfaces.ISinology"
+    marker=".custom.IHintImage" />
+
 </configure>
