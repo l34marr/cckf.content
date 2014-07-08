@@ -13,6 +13,13 @@
   <adapter factory=".shortname.NameFromCreationDate" />
 
   <plone:behavior
+    title="Name from Id"
+    description="Generates short name based on Id."
+    provides=".shortname.INameFromId"
+    for="cckf.content.interfaces.IGrant" />
+  <adapter factory=".shortname.NameFromId" />
+
+  <plone:behavior
     title="Hint Image"
     description="Adds Image and Image Caption Fields."
     provides=".custom.IHintImage"
