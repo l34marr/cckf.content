@@ -6,6 +6,12 @@
 
   <browser:page
     name="view"
+    for="cckf.content.content.IGrant"
+    template="grant.pt"
+    permission="zope.Public" />
+
+  <browser:page
+    name="view"
     for="cckf.content.content.ISinology"
     template="sinology.pt"
     permission="zope.Public" />

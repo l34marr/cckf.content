@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<model i18n:domain="cckf.content"
+ xmlns="http://namespaces.plone.org/supermodel/schema"
+ xmlns:form="http://namespaces.plone.org/supermodel/form"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+<schema>
+
+  <field name="id"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Id</title>
+  </field>
+  <field name="title"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Project</title>
+  </field>
+  <field name="year"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Year</title>
+    <required>False</required>
+  </field>
+  <field name="director"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Director</title>
+    <required>False</required>
+  </field>
+  <field name="description"
+   type="zope.schema.Text">
+    <title i18n:translate="">Institute</title>
+    <required>False</required>
+  </field>
+  <field name="country"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Country</title>
+    <required>False</required>
+  </field>
+  <field name="category"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Category</title>
+    <required>False</required>
+  </field>
+  <field name="budget"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Budget</title>
+    <required>False</required>
+  </field>
+  <field name="status"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Status</title>
+    <required>False</required>
+  </field>
+
+</schema>
+
+</model>

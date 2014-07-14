@@ -1,0 +1,55 @@
+<html lang="en" xml:lang="en"
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:tal="http://xml.zope.org/namespaces/tal"
+ xmlns:metal="http://xml.zope.org/namespaces/metal"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+ metal:use-macro="context/main_template/macros/master"
+ i18n:domain="cckf.content">
+
+<body>
+
+<metal:header fill-slot="header">
+<div tal:condition="context/year">
+<label class="fieldHead" i18n:translate="">Year</label>
+<span style="display: none">:</span>
+<span tal:replace="context/year" />
+</div>
+</metal:header>
+
+<metal:title fill-slot="content-title">
+<label class="fieldHead" i18n:translate="">Project</label>
+<span class="forText">:</span>
+<span tal:replace="context/title" />
+</metal:title>
+<metal:description fill-slot="content-description">
+<div tal:condition="context/description">
+<label class="fieldHead" i18n:translate="">Institute</label>
+<span class="forText">:</span>
+<span tal:replace="context/description" />
+<span tal:condition="context/country">
+, <span tal:replace="context/country" />
+</span>
+</div>
+</metal:description>
+
+<metal:text fill-slot="content-core">
+<div tal:condition="context/director">
+<label class="fieldHead" i18n:translate="">Director</label>
+<span class="forText">:</span>
+<span tal:replace="context/director" />
+</div>
+<div tal:condition="context/category">
+<label class="fieldHead" i18n:translate="">Category</label>
+<span class="forText">:</span>
+<span tal:replace="context/category" />
+</div>
+<div tal:condition="context/budget">
+<label class="fieldHead" i18n:translate="">Budget</label>
+<span class="forText">:</span>
+<span tal:replace="context/budget" />
+</div>
+</metal:text>
+
+</body>
+
+</html>
