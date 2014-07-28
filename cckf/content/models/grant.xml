@@ -35,9 +35,11 @@
     <required>False</required>
   </field>
   <field name="category"
-   type="zope.schema.TextLine">
+   type="zope.schema.Choice"
+   form:widget="z3c.form.browser.radio.RadioFieldWidget">
     <title i18n:translate="">Category</title>
     <required>False</required>
+    <vocabulary>cckf.category</vocabulary>
   </field>
   <field name="budget"
    type="zope.schema.TextLine">

@@ -41,7 +41,7 @@
 <div tal:condition="context/category">
 <label class="fieldHead" i18n:translate="">Category</label>
 <span class="forText">:</span>
-<span tal:replace="context/category" />
+<span tal:replace="python:view.t_title('cckf.category',context.category)" />
 </div>
 <div tal:condition="context/budget">
 <label class="fieldHead" i18n:translate="">Budget</label>

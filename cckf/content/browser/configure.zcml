@@ -7,6 +7,7 @@
   <browser:page
     name="view"
     for="cckf.content.content.IGrant"
+    class=".grant.GrantView"
     template="grant.pt"
     permission="zope.Public" />
 
