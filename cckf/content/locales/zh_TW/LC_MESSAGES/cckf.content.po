@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2014-07-27 15:04+0000\n"
-"PO-Revision-Date: 2014-07-28 16:11+0800\n"
+"POT-Creation-Date: 2014-07-28 09:04+0000\n"
+"PO-Revision-Date: 2014-07-28 20:48+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: ./vocabularies.py:14
 msgid "Australia"
-msgstr ""
+msgstr "澳洲"
 
 #: ./vocabularies.py:15
 msgid "Austria"
-msgstr ""
+msgstr "奧地利"
 
 #: ./vocabularies.py:16
 msgid "Bangladesh"
-msgstr ""
+msgstr "孟加拉"
 
 #: ./vocabularies.py:17
 msgid "Belgium"
-msgstr ""
+msgstr "比利時"
 
 #: ./vocabularies.py:99
 msgid "Bilateral Cooperation Grants"
@@ -45,11 +45,11 @@ msgstr "核定金額"
 
 #: ./vocabularies.py:18
 msgid "Bulgaria"
-msgstr ""
+msgstr "保加利亞"
 
 #: ./vocabularies.py:19
 msgid "Canada"
-msgstr ""
+msgstr "加拿大"
 
 #: ./vocabularies.py:110
 msgid "Canadian Asian Studies Association/Post"
@@ -66,11 +66,11 @@ msgstr "申請類別"
 
 #: ./vocabularies.py:20
 msgid "Chile"
-msgstr ""
+msgstr "智利"
 
 #: ./vocabularies.py:21
 msgid "China"
-msgstr ""
+msgstr "中國"
 
 #: ./vocabularies.py:87
 msgid "Conference and Seminar Grants"
@@ -86,19 +86,15 @@ msgstr "指導博士研究生補助"
 
 #: ./vocabularies.py:22
 msgid "Costa Rica"
-msgstr ""
-
-#: ./models/grant.xml
-msgid "Country"
-msgstr "國家(地區)"
+msgstr "哥斯大黎加"
 
 #: ./vocabularies.py:23
 msgid "Croatia"
-msgstr ""
+msgstr "克羅埃西亞"
 
 #: ./vocabularies.py:24
 msgid "Czech Republic"
-msgstr ""
+msgstr "捷克"
 
 #: ./vocabularies.py:90
 msgid "Database Grants"
@@ -106,7 +102,7 @@ msgstr "資料庫建置"
 
 #: ./vocabularies.py:25
 msgid "Denmark"
-msgstr ""
+msgstr "丹麥"
 
 #: ./browser/grant.pt:37
 #: ./models/grant.xml
@@ -131,19 +127,19 @@ msgstr "博士論文獎學金"
 
 #: ./vocabularies.py:26
 msgid "Estonia"
-msgstr ""
+msgstr "愛沙尼亞"
 
 #: ./vocabularies.py:27
 msgid "Finland"
-msgstr ""
+msgstr "芬蘭"
 
 #: ./vocabularies.py:28
 msgid "France"
-msgstr ""
+msgstr "法國"
 
 #: ./vocabularies.py:29
 msgid "Germany"
-msgstr ""
+msgstr "德國"
 
 #: ./vocabularies.py:113
 msgid "Graduate Student Workshops"
@@ -163,7 +159,7 @@ msgstr "獎助申請"
 
 #: ./vocabularies.py:30
 msgid "Greece"
-msgstr ""
+msgstr "希臘"
 
 #: ./behaviors/custom.py:16
 msgid "Hint Image"
@@ -175,15 +171,15 @@ msgstr "樣圖說明"
 
 #: ./vocabularies.py:31
 msgid "Hong Kong"
-msgstr ""
+msgstr "香港"
 
 #: ./vocabularies.py:32
 msgid "Hungary"
-msgstr ""
+msgstr "匈牙利"
 
 #: ./vocabularies.py:33
 msgid "Iceland"
-msgstr ""
+msgstr "冰島"
 
 #: ./models/grant.xml
 msgid "Id"
@@ -191,11 +187,11 @@ msgstr "識別碼"
 
 #: ./vocabularies.py:34
 msgid "India"
-msgstr ""
+msgstr "印度"
 
 #: ./vocabularies.py:35
 msgid "Indonesia"
-msgstr ""
+msgstr "印尼"
 
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
@@ -208,23 +204,23 @@ msgstr "學術機構補助"
 
 #: ./vocabularies.py:36
 msgid "Ireland"
-msgstr ""
+msgstr "愛爾蘭"
 
 #: ./vocabularies.py:37
 msgid "Israel"
-msgstr ""
+msgstr "以色列"
 
 #: ./vocabularies.py:38
 msgid "Italy"
-msgstr ""
+msgstr "義大利"
 
 #: ./vocabularies.py:39
 msgid "Japan"
-msgstr ""
+msgstr "日本"
 
 #: ./vocabularies.py:40
 msgid "Jordan"
-msgstr ""
+msgstr "約旦"
 
 #: ./vocabularies.py:104
 msgid "Junior Scholar Grants"
@@ -232,15 +228,15 @@ msgstr "青年學者補助"
 
 #: ./vocabularies.py:41
 msgid "Kazakhstan"
-msgstr ""
+msgstr "哈薩克"
 
 #: ./vocabularies.py:42
 msgid "Korea"
-msgstr ""
+msgstr "韓國"
 
 #: ./vocabularies.py:43
 msgid "Latvia"
-msgstr ""
+msgstr "拉脫維亞"
 
 #: ./vocabularies.py:101
 msgid "Lecture Series Grants"
@@ -256,47 +252,47 @@ msgstr "資源網址"
 
 #: ./vocabularies.py:44
 msgid "Lithuania"
-msgstr ""
+msgstr "立陶宛"
 
 #: ./vocabularies.py:45
 msgid "Macau"
-msgstr ""
+msgstr "澳門"
 
 #: ./vocabularies.py:46
 msgid "Malaysia"
-msgstr ""
+msgstr "馬來西亞"
 
 #: ./vocabularies.py:47
 msgid "Mexico"
-msgstr ""
+msgstr "墨西哥"
 
 #: ./vocabularies.py:48
 msgid "Mongolia"
-msgstr ""
+msgstr "蒙古"
 
 #: ./vocabularies.py:49
 msgid "New Zealand"
-msgstr ""
+msgstr "紐西蘭"
 
 #: ./vocabularies.py:50
 msgid "Norway"
-msgstr ""
+msgstr "挪威"
 
 #: ./vocabularies.py:51
 msgid "Panama"
-msgstr ""
+msgstr "巴拿馬"
 
 #: ./vocabularies.py:52
 msgid "Philippines"
-msgstr ""
+msgstr "菲律賓"
 
 #: ./vocabularies.py:53
 msgid "Poland"
-msgstr ""
+msgstr "波蘭"
 
 #: ./vocabularies.py:54
 msgid "Portugal"
-msgstr ""
+msgstr "葡萄牙"
 
 #: ./vocabularies.py:108
 msgid "Postdoctoral Research Fellowships"
@@ -315,9 +311,13 @@ msgstr "計畫"
 msgid "Publication Subsidies"
 msgstr "出版補助"
 
+#: ./models/grant.xml
+msgid "Region"
+msgstr "國家(地區)"
+
 #: ./vocabularies.py:55
 msgid "Republic of China"
-msgstr ""
+msgstr "中華民國"
 
 #: ./vocabularies.py:88
 msgid "Research Grants"
@@ -325,11 +325,11 @@ msgstr "研究計畫"
 
 #: ./vocabularies.py:56
 msgid "Romania"
-msgstr ""
+msgstr "羅馬尼亞"
 
 #: ./vocabularies.py:57
 msgid "Russia"
-msgstr ""
+msgstr "俄羅斯"
 
 #: ./vocabularies.py:103
 msgid "Scholar Grants"
@@ -341,11 +341,11 @@ msgstr "資深學者補助"
 
 #: ./vocabularies.py:58
 msgid "Serbia"
-msgstr ""
+msgstr "塞爾維亞"
 
 #: ./vocabularies.py:59
 msgid "Singapore"
-msgstr ""
+msgstr "新加坡"
 
 #: ./profiles/default/types/sinology.xml
 msgid "Sinology"
@@ -357,19 +357,19 @@ msgstr "漢學資源"
 
 #: ./vocabularies.py:60
 msgid "Slovakia"
-msgstr ""
+msgstr "斯洛伐克"
 
 #: ./vocabularies.py:61
 msgid "Slovenia"
-msgstr ""
+msgstr "斯洛文尼亞"
 
 #: ./vocabularies.py:62
 msgid "South Africa"
-msgstr ""
+msgstr "南非"
 
 #: ./vocabularies.py:63
 msgid "Spain"
-msgstr ""
+msgstr "西班牙"
 
 #: ./vocabularies.py:96
 msgid "Special Project Grants"
@@ -381,19 +381,19 @@ msgstr "執行狀況"
 
 #: ./vocabularies.py:64
 msgid "Sweden"
-msgstr ""
+msgstr "瑞典"
 
 #: ./vocabularies.py:65
 msgid "Switzerland"
-msgstr ""
+msgstr "瑞士"
 
 #: ./vocabularies.py:66
 msgid "Thailand"
-msgstr ""
+msgstr "泰國"
 
 #: ./vocabularies.py:67
 msgid "The Netherlands"
-msgstr ""
+msgstr "荷蘭"
 
 #: ./vocabularies.py:97
 msgid "Travel Grants"
@@ -401,11 +401,11 @@ msgstr "旅費補助"
 
 #: ./vocabularies.py:68
 msgid "Turkey"
-msgstr ""
+msgstr "土耳其"
 
 #: ./vocabularies.py:70
 msgid "UK"
-msgstr ""
+msgstr "英國"
 
 #: ./browser/sinology.pt:19
 #: ./models/sinology.xml
@@ -414,27 +414,27 @@ msgstr "網址"
 
 #: ./vocabularies.py:72
 msgid "USA"
-msgstr ""
+msgstr "美國"
 
 #: ./vocabularies.py:73
 msgid "USSR"
-msgstr ""
+msgstr "蘇聯"
 
 #: ./vocabularies.py:69
 msgid "Uganda"
-msgstr ""
+msgstr "烏干達"
 
 #: ./vocabularies.py:71
 msgid "Ukraine"
-msgstr ""
+msgstr "烏克蘭"
 
 #: ./vocabularies.py:74
 msgid "Uzbekistan"
-msgstr ""
+msgstr "烏茲別克"
 
 #: ./vocabularies.py:75
 msgid "Vietnam"
-msgstr ""
+msgstr "越南"
 
 #: ./vocabularies.py:95
 msgid "Visiting Fellowships"
@@ -451,5 +451,5 @@ msgstr "年度"
 
 #: ./vocabularies.py:76
 msgid "Yugoslavia"
-msgstr ""
+msgstr "南斯拉夫"
 
