@@ -17,4 +17,14 @@
     template="sinology.pt"
     permission="zope.Public" />
 
+  <browser:page
+    name="aggregate_view"
+    for="plone.app.contenttypes.interfaces.ICollection"
+    class=".collection.AggregateView"
+    template="aggregate_view.pt"
+    permission="zope2.View"
+    menu="plone_displayviews"
+    title="Aggregate View"
+    layer="cckf.theme.browser.interfaces.IThemeSpecific" />
+
 </configure>

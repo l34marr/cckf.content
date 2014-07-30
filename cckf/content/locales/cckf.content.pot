@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-28 09:04+0000\n"
+"POT-Creation-Date: 2014-07-30 13:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,7 @@ msgstr ""
 msgid "Bilateral Cooperation Grants"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:58
 #: ./browser/grant.pt:47
 #: ./models/grant.xml
 msgid "Budget"
@@ -107,6 +108,7 @@ msgstr ""
 msgid "Denmark"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:53
 #: ./browser/grant.pt:37
 #: ./models/grant.xml
 msgid "Director"
@@ -196,6 +198,7 @@ msgstr ""
 msgid "Indonesia"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:45
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
 msgid "Institute"
@@ -305,6 +308,7 @@ msgstr ""
 msgid "Professor Grants"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -398,6 +402,10 @@ msgstr ""
 msgid "The Netherlands"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:69
+msgid "There are currently no items in this collection."
+msgstr ""
+
 #: ./vocabularies.py:97
 msgid "Travel Grants"
 msgstr ""
@@ -447,6 +455,7 @@ msgstr ""
 msgid "Walter Judd Research Fellowship"
 msgstr ""
 
+#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"

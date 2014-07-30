@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2014-07-28 09:04+0000\n"
-"PO-Revision-Date: 2014-07-28 20:48+0800\n"
+"POT-Creation-Date: 2014-07-30 13:34+0000\n"
+"PO-Revision-Date: 2014-07-30 21:45+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -38,6 +38,7 @@ msgstr "比利時"
 msgid "Bilateral Cooperation Grants"
 msgstr "雙邊合作"
 
+#: ./browser/aggregate_view.pt:58
 #: ./browser/grant.pt:47
 #: ./models/grant.xml
 msgid "Budget"
@@ -104,6 +105,7 @@ msgstr "資料庫建置"
 msgid "Denmark"
 msgstr "丹麥"
 
+#: ./browser/aggregate_view.pt:53
 #: ./browser/grant.pt:37
 #: ./models/grant.xml
 msgid "Director"
@@ -193,6 +195,7 @@ msgstr "印度"
 msgid "Indonesia"
 msgstr "印尼"
 
+#: ./browser/aggregate_view.pt:45
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
 msgid "Institute"
@@ -302,6 +305,7 @@ msgstr "博士後研究"
 msgid "Professor Grants"
 msgstr "教授補助"
 
+#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -395,6 +399,10 @@ msgstr "泰國"
 msgid "The Netherlands"
 msgstr "荷蘭"
 
+#: ./browser/aggregate_view.pt:69
+msgid "There are currently no items in this collection."
+msgstr "這個選集裡沒有任何項目。"
+
 #: ./vocabularies.py:97
 msgid "Travel Grants"
 msgstr "旅費補助"
@@ -444,6 +452,7 @@ msgstr "訪問學者"
 msgid "Walter Judd Research Fellowship"
 msgstr "周以德獎助案"
 
+#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"
