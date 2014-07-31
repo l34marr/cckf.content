@@ -11,7 +11,7 @@ class CompactView(BrowserView):
 
     def getContent(self,
                    container=None,
-                   videos=0,
+                   media=0,
                    folders=0,
                    others=0):
         """ Mostly ripped out from atctListAlbum.py
@@ -22,9 +22,9 @@ class CompactView(BrowserView):
 
         result = {}
 
-        if videos:
-            result['videos'] = container.getFolderContents(
-                {'portal_type': ('Document',)}, full_objects=True)
+        if media:
+            result['media'] = container.getFolderContents(
+                {'portal_type': ('Document','sinology',)}, full_objects=True)
 
         if folders:
             result['folders'] = container.getFolderContents(
@@ -34,7 +34,7 @@ class CompactView(BrowserView):
             utils = getToolByName(self.context, 'plone_utils')
             searchContentTypes = utils.getUserFriendlyTypes()
             filtered = [p_type for p_type in searchContentTypes
-                        if p_type not in ('Document', 'Folder',)]
+                        if p_type not in ('Document','sinology','Folder',)]
             if filtered:
                 # We don't need the full objects for the folder_listing
                 result['others'] = container.getFolderContents(
