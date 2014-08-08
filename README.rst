@@ -14,3 +14,8 @@ Add this line in the eggs section of your ``buildout.cfg``::
         ...
         cckf.content
 
+Dependency
+==========
+
+cckf.theme and plone.app.contenttypes
+
