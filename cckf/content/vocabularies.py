@@ -115,3 +115,24 @@ class Category(object):
         return SimpleVocabulary(items)
 CategoryFactory = Category()
 
+class Classify(object):
+    """Classify Vocabulary
+    """
+    implements(IVocabularyFactory)
+    def __call__(self, context=None):
+        items = (
+            SimpleTerm(value='01', title=_(u'Selected')),
+            SimpleTerm(value='02', title=_(u'Directory')),
+            SimpleTerm(value='03', title=_(u'Library')),
+            SimpleTerm(value='04', title=_(u'Literature')),
+            SimpleTerm(value='05', title=_(u'Religion')),
+            SimpleTerm(value='06', title=_(u'Family Tree')),
+            SimpleTerm(value='07', title=_(u'Biography')),
+            SimpleTerm(value='08', title=_(u'Journal')),
+            SimpleTerm(value='09', title=_(u'Essay')),
+            SimpleTerm(value='10', title=_(u'Newspapper')),
+            SimpleTerm(value='11', title=_(u'Archive'))
+        )
+        return SimpleVocabulary(items)
+ClassifyFactory = Classify()
+

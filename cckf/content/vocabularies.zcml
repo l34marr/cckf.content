@@ -14,4 +14,9 @@
     component=".vocabularies.CategoryFactory"
     provides="zope.schema.interfaces.IVocabularyFactory" />
 
+  <utility
+    name="cckf.sinology"
+    component=".vocabularies.ClassifyFactory"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
 </configure>
