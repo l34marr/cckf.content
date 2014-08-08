@@ -7,13 +7,14 @@
   <browser:page
     name="view"
     for="cckf.content.content.IGrant"
-    class=".grant.GrantView"
+    class=".view.MyView"
     template="grant.pt"
     permission="zope.Public" />
 
   <browser:page
     name="view"
     for="cckf.content.content.ISinology"
+    class=".view.MyView"
     template="sinology.pt"
     permission="zope.Public" />
 
@@ -25,6 +26,14 @@
     permission="zope2.View"
     menu="plone_displayviews"
     title="Aggregate View"
+    layer="cckf.theme.browser.interfaces.IThemeSpecific" />
+
+  <browser:page
+    name="summary_view"
+    for="plone.app.contenttypes.behaviors.collection.ISyndicatableCollection"
+    class="plone.app.contenttypes.browser.collection.CollectionView"
+    template="summary_view.pt"
+    permission="zope2.View"
     layer="cckf.theme.browser.interfaces.IThemeSpecific" />
 
   <browser:page

@@ -3,7 +3,7 @@ from zope.component import getUtility
 from zope.schema.interfaces import IVocabularyFactory
 
 
-class GrantView(BrowserView):
+class MyView(BrowserView):
 
     def t_title(self, vocab, value):
         try:
