@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2014-07-30 13:34+0000\n"
-"PO-Revision-Date: 2014-07-30 21:45+0800\n"
+"POT-Creation-Date: 2014-08-08 07:18+0000\n"
+"PO-Revision-Date: 2014-08-08 15:18+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Language-Name: Traditional Chinese\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
+
+#: ./vocabularies.py:134
+msgid "Archive"
+msgstr "網路數位圖書資源"
 
 #: ./models/grant.xml
 msgid "Attached Files"
@@ -37,6 +41,10 @@ msgstr "比利時"
 #: ./vocabularies.py:99
 msgid "Bilateral Cooperation Grants"
 msgstr "雙邊合作"
+
+#: ./vocabularies.py:130
+msgid "Biography"
+msgstr "人物傳記"
 
 #: ./browser/aggregate_view.pt:58
 #: ./browser/grant.pt:47
@@ -72,6 +80,15 @@ msgstr "智利"
 #: ./vocabularies.py:21
 msgid "China"
 msgstr "中國"
+
+#: ./models/sinology.xml
+msgid "Classification"
+msgstr "分類"
+
+#: ./browser/sinology.pt:30
+#: ./models/sinology.xml
+msgid "Classify"
+msgstr "分類"
 
 #: ./vocabularies.py:87
 msgid "Conference and Seminar Grants"
@@ -111,6 +128,10 @@ msgstr "丹麥"
 msgid "Director"
 msgstr "主持人"
 
+#: ./vocabularies.py:125
+msgid "Directory"
+msgstr "聯合目錄檢索"
+
 #: ./vocabularies.py:109
 msgid "Dissertation Fellowships for ROC Students Abroad"
 msgstr "中華民國留學生博士論文獎學金"
@@ -127,9 +148,17 @@ msgstr "傑出學者補助"
 msgid "Doctoral Fellowships"
 msgstr "博士論文獎學金"
 
+#: ./vocabularies.py:132
+msgid "Essay"
+msgstr "學位論文"
+
 #: ./vocabularies.py:26
 msgid "Estonia"
 msgstr "愛沙尼亞"
+
+#: ./vocabularies.py:129
+msgid "Family Tree"
+msgstr "家譜族譜"
 
 #: ./vocabularies.py:27
 msgid "Finland"
@@ -225,6 +254,10 @@ msgstr "日本"
 msgid "Jordan"
 msgstr "約旦"
 
+#: ./vocabularies.py:131
+msgid "Journal"
+msgstr "期刊論文"
+
 #: ./vocabularies.py:104
 msgid "Junior Scholar Grants"
 msgstr "青年學者補助"
@@ -245,6 +278,10 @@ msgstr "拉脫維亞"
 msgid "Lecture Series Grants"
 msgstr "系列講座"
 
+#: ./vocabularies.py:126
+msgid "Library"
+msgstr "數位圖書館、資料庫"
+
 #: ./vocabularies.py:94
 msgid "Library Acquisition Grants"
 msgstr "圖書館補助"
@@ -252,6 +289,10 @@ msgstr "圖書館補助"
 #: ./models/sinology.xml
 msgid "Link to the Resource."
 msgstr "資源網址"
+
+#: ./vocabularies.py:127
+msgid "Literature"
+msgstr "古籍文獻"
 
 #: ./vocabularies.py:44
 msgid "Lithuania"
@@ -276,6 +317,10 @@ msgstr "蒙古"
 #: ./vocabularies.py:49
 msgid "New Zealand"
 msgstr "紐西蘭"
+
+#: ./vocabularies.py:133
+msgid "Newspapper"
+msgstr "報刊索引"
 
 #: ./vocabularies.py:50
 msgid "Norway"
@@ -319,6 +364,10 @@ msgstr "出版補助"
 msgid "Region"
 msgstr "國家(地區)"
 
+#: ./vocabularies.py:128
+msgid "Religion"
+msgstr "宗教"
+
 #: ./vocabularies.py:55
 msgid "Republic of China"
 msgstr "中華民國"
@@ -326,6 +375,10 @@ msgstr "中華民國"
 #: ./vocabularies.py:88
 msgid "Research Grants"
 msgstr "研究計畫"
+
+#: ./models/sinology.xml
+msgid "Resource Classification."
+msgstr "資源的類別"
 
 #: ./vocabularies.py:56
 msgid "Romania"
@@ -338,6 +391,10 @@ msgstr "俄羅斯"
 #: ./vocabularies.py:103
 msgid "Scholar Grants"
 msgstr "學者補助"
+
+#: ./vocabularies.py:124
+msgid "Selected"
+msgstr "資源選介"
 
 #: ./vocabularies.py:93
 msgid "Senior Scholar Grants"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-30 13:34+0000\n"
+"POT-Creation-Date: 2014-08-08 07:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
+
+#: ./vocabularies.py:134
+msgid "Archive"
+msgstr ""
 
 #: ./models/grant.xml
 msgid "Attached Files"
@@ -39,6 +43,10 @@ msgstr ""
 
 #: ./vocabularies.py:99
 msgid "Bilateral Cooperation Grants"
+msgstr ""
+
+#: ./vocabularies.py:130
+msgid "Biography"
 msgstr ""
 
 #: ./browser/aggregate_view.pt:58
@@ -74,6 +82,15 @@ msgstr ""
 
 #: ./vocabularies.py:21
 msgid "China"
+msgstr ""
+
+#: ./models/sinology.xml
+msgid "Classification"
+msgstr ""
+
+#: ./browser/sinology.pt:30
+#: ./models/sinology.xml
+msgid "Classify"
 msgstr ""
 
 #: ./vocabularies.py:87
@@ -114,6 +131,10 @@ msgstr ""
 msgid "Director"
 msgstr ""
 
+#: ./vocabularies.py:125
+msgid "Directory"
+msgstr ""
+
 #: ./vocabularies.py:109
 msgid "Dissertation Fellowships for ROC Students Abroad"
 msgstr ""
@@ -130,8 +151,16 @@ msgstr ""
 msgid "Doctoral Fellowships"
 msgstr ""
 
+#: ./vocabularies.py:132
+msgid "Essay"
+msgstr ""
+
 #: ./vocabularies.py:26
 msgid "Estonia"
+msgstr ""
+
+#: ./vocabularies.py:129
+msgid "Family Tree"
 msgstr ""
 
 #: ./vocabularies.py:27
@@ -228,6 +257,10 @@ msgstr ""
 msgid "Jordan"
 msgstr ""
 
+#: ./vocabularies.py:131
+msgid "Journal"
+msgstr ""
+
 #: ./vocabularies.py:104
 msgid "Junior Scholar Grants"
 msgstr ""
@@ -248,12 +281,20 @@ msgstr ""
 msgid "Lecture Series Grants"
 msgstr ""
 
+#: ./vocabularies.py:126
+msgid "Library"
+msgstr ""
+
 #: ./vocabularies.py:94
 msgid "Library Acquisition Grants"
 msgstr ""
 
 #: ./models/sinology.xml
 msgid "Link to the Resource."
+msgstr ""
+
+#: ./vocabularies.py:127
+msgid "Literature"
 msgstr ""
 
 #: ./vocabularies.py:44
@@ -278,6 +319,10 @@ msgstr ""
 
 #: ./vocabularies.py:49
 msgid "New Zealand"
+msgstr ""
+
+#: ./vocabularies.py:133
+msgid "Newspapper"
 msgstr ""
 
 #: ./vocabularies.py:50
@@ -322,12 +367,20 @@ msgstr ""
 msgid "Region"
 msgstr ""
 
+#: ./vocabularies.py:128
+msgid "Religion"
+msgstr ""
+
 #: ./vocabularies.py:55
 msgid "Republic of China"
 msgstr ""
 
 #: ./vocabularies.py:88
 msgid "Research Grants"
+msgstr ""
+
+#: ./models/sinology.xml
+msgid "Resource Classification."
 msgstr ""
 
 #: ./vocabularies.py:56
@@ -340,6 +393,10 @@ msgstr ""
 
 #: ./vocabularies.py:103
 msgid "Scholar Grants"
+msgstr ""
+
+#: ./vocabularies.py:124
+msgid "Selected"
 msgstr ""
 
 #: ./vocabularies.py:93
