@@ -15,13 +15,19 @@
  tal:condition="context/text"
  tal:content="structure python:context.text.output_relative_to(view.context)" />
 
-<p tal:condition="context/remoteUrl">
+<div tal:condition="context/remoteUrl">
   <span i18n:translate="">URL</span>:
   <a href="#"
    tal:attributes="href context/remoteUrl"
    tal:content="context/remoteUrl">http://exmaple.org/</a>
-</p>
-
+</div>
+<div tal:condition="context/classify">
+  <span i18n:translate="">Classify</span>:
+  <tal:block repeat="c context/classify">
+  <span tal:replace="python:view.t_title('cckf.sinology',c)" />
+  <span class="separator" tal:condition="not: repeat/c/end">,</span>
+  </tal:block>
+</div>
 <div class="leadImage"
  tal:condition="context/image">
   <img tal:define="scale context/@@images"

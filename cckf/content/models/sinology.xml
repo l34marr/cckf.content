@@ -13,6 +13,16 @@
       <default>http://</default>
       <required>False</required>
     </field>
+    <field name="classify"
+     type="zope.schema.List">
+      <title i18n:translate="">Classify</title>
+      <description i18n:translate="">Resource Classification.</description>
+      <required>False</required>
+      <value_type type="zope.schema.Choice">
+          <title i18n:translate="">Classification</title>
+          <vocabulary>cckf.sinology</vocabulary>
+      </value_type>
+    </field>
 
   </schema>
 
