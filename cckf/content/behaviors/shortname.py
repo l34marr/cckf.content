@@ -5,6 +5,7 @@ from zope.component import getUtility
 from plone.app.content.interfaces import INameFromTitle
 from Products.CMFCore.interfaces import ISiteRoot
 from zope.annotation.interfaces import IAnnotations
+from Products.CMFCore.utils import getToolByName
 
 ANNOTATION_DATE_ID = 'cckf.content.behavior.dateid'
 ANNOTATION_NEXT_ID = 'cckf.content.behavior.nextid'
@@ -41,6 +42,29 @@ class NameFromCreationDate(object):
         storage[ANNOTATION_NEXT_ID] = nextid + 1
 
         instance.title = '%s%s' % (dateid, str(nextid).zfill(2))
+        return instance
+
+    def __init__(self, context):
+        self.context = context
+
+
+class INameFromSerial(Interface):
+    """Enable Name from Serial Number Behavior
+    """
+
+class NameFromSerial(object):
+    implements(INameFromTitle)
+    adapts(INameFromSerial)
+
+    def __new__(cls, context):
+        instance = super(NameFromSerial, cls).__new__(cls)
+        site = getUtility(ISiteRoot)
+        catalog = getToolByName(site, 'portal_catalog')
+        brain = catalog(portal_type='sinology', sort_on='id')
+        last_brain = brain[-1]
+        last_id = int(last_brain.getId)
+        instance.title = '%s' % (str(last_id + 1).zfill(5))
+        #import pdb; pdb.set_trace()
         return instance
 
     def __init__(self, context):

@@ -20,7 +20,7 @@
   <property name="klass">cckf.content.content.Sinology</property>
 
   <property name="behaviors">
-    <element value="cckf.content.behaviors.shortname.INameFromCreationDate" />
+    <element value="cckf.content.behaviors.shortname.INameFromSerial" />
     <element value="plone.app.dexterity.behaviors.metadata.IBasic" />
     <element value="plone.app.contenttypes.behaviors.richtext.IRichText" />
     <element value="cckf.content.behaviors.custom.IHintImage" />

@@ -13,6 +13,13 @@
   <adapter factory=".shortname.NameFromCreationDate" />
 
   <plone:behavior
+    title="Name from Serial Number"
+    description="Generates short name based on Serial Number."
+    provides=".shortname.INameFromSerial"
+    for="cckf.content.interfaces.ISinology" />
+  <adapter factory=".shortname.NameFromSerial" />
+
+  <plone:behavior
     title="Name from Id"
     description="Generates short name based on Id."
     provides=".shortname.INameFromId"
