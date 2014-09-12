@@ -42,6 +42,11 @@
     <required>False</required>
     <vocabulary>cckf.category</vocabulary>
   </field>
+  <field name="currency"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Currency</title>
+    <required>False</required>
+  </field>
   <field name="budget"
    type="zope.schema.TextLine">
     <title i18n:translate="">Budget</title>

@@ -46,6 +46,7 @@
 <div tal:condition="context/budget">
 <label class="fieldHead" i18n:translate="">Budget</label>
 <span class="forText">:</span>
+<span tal:replace="context/currency" />
 <span tal:replace="context/budget" />
 </div>
 </metal:text>
