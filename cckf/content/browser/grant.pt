@@ -26,9 +26,12 @@
 <label class="fieldHead" i18n:translate="">Institute</label>
 <span class="forText">:</span>
 <span tal:replace="context/description" />
-<span tal:condition="context/region">
+<tal:dept condition="context/department">
+<span tal:replace="context/department" />
+</tal:dept>
+<tal:region condition="context/region">
 , <span tal:replace="python:view.t_title('cckf.region',context.region)" />
-</span>
+</tal:region>
 </div>
 </metal:description>
 

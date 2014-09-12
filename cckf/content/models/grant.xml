@@ -29,6 +29,11 @@
     <title i18n:translate="">Institute</title>
     <required>False</required>
   </field>
+  <field name="department"
+   type="zope.schema.TextLine">
+    <title i18n:translate="">Department</title>
+    <required>False</required>
+  </field>
   <field name="region"
    type="zope.schema.Choice">
     <title i18n:translate="">Region</title>
