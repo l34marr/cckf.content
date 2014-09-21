@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cckf.content\n"
+"POT-Creation-Date: 2014-08-08 07:18+0000\n"
+"PO-Revision-Date: 2014-08-08 15:18+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
+"Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh\n"
+"Language-Name: Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cckf.content\n"
+
+#: ./vocabularies.py:134
+msgid "Archive"
+msgstr "網路數位圖書資源"
+
+#: ./models/grant.xml
+msgid "Attached Files"
+msgstr ""
+
+#: ./vocabularies.py:14
+msgid "Australia"
+msgstr "澳洲"
+
+#: ./vocabularies.py:15
+msgid "Austria"
+msgstr "奧地利"
+
+#: ./vocabularies.py:16
+msgid "Bangladesh"
+msgstr "孟加拉"
+
+#: ./vocabularies.py:17
+msgid "Belgium"
+msgstr "比利時"
+
+#: ./vocabularies.py:99
+msgid "Bilateral Cooperation Grants"
+msgstr "雙邊合作"
+
+#: ./vocabularies.py:130
+msgid "Biography"
+msgstr "人物傳記"
+
+#: ./browser/aggregate_view.pt:58
+#: ./browser/grant.pt:47
+#: ./models/grant.xml
+msgid "Budget"
+msgstr "核定金額"
+
+#: ./vocabularies.py:18
+msgid "Bulgaria"
+msgstr "保加利亞"
+
+#: ./vocabularies.py:19
+msgid "Canada"
+msgstr "加拿大"
+
+#: ./vocabularies.py:110
+msgid "Canadian Asian Studies Association/Post"
+msgstr "加拿大亞洲研究協會博士後研究"
+
+#: ./vocabularies.py:111
+msgid "Canadian Asian Studies Association/Pre"
+msgstr "加拿大亞洲研究協會博士論文獎學金"
+
+#: ./browser/grant.pt:42
+#: ./models/grant.xml
+msgid "Category"
+msgstr "申請類別"
+
+#: ./vocabularies.py:20
+msgid "Chile"
+msgstr "智利"
+
+#: ./vocabularies.py:21
+msgid "China"
+msgstr "中國"
+
+#: ./models/sinology.xml
+msgid "Classification"
+msgstr "分類"
+
+#: ./browser/sinology.pt:30
+#: ./models/sinology.xml
+msgid "Classify"
+msgstr "分類"
+
+#: ./vocabularies.py:87
+msgid "Conference and Seminar Grants"
+msgstr "研討會"
+
+#: ./vocabularies.py:100
+msgid "Consortium Operations"
+msgstr "多邊合作"
+
+#: ./vocabularies.py:105
+msgid "Cooperative Guidance"
+msgstr "指導博士研究生補助"
+
+#: ./vocabularies.py:22
+msgid "Costa Rica"
+msgstr "哥斯大黎加"
+
+#: ./vocabularies.py:23
+msgid "Croatia"
+msgstr "克羅埃西亞"
+
+#: ./vocabularies.py:24
+msgid "Czech Republic"
+msgstr "捷克"
+
+#: ./vocabularies.py:90
+msgid "Database Grants"
+msgstr "資料庫建置"
+
+#: ./vocabularies.py:25
+msgid "Denmark"
+msgstr "丹麥"
+
+#: ./browser/aggregate_view.pt:53
+#: ./browser/grant.pt:37
+#: ./models/grant.xml
+msgid "Director"
+msgstr "主持人"
+
+#: ./vocabularies.py:125
+msgid "Directory"
+msgstr "聯合目錄檢索"
+
+#: ./vocabularies.py:109
+msgid "Dissertation Fellowships for ROC Students Abroad"
+msgstr "中華民國留學生博士論文獎學金"
+
+#: ./vocabularies.py:91
+msgid "Distinguished Lectureships"
+msgstr "傑出學者講座"
+
+#: ./vocabularies.py:102
+msgid "Distinguished Scholar Grants"
+msgstr "傑出學者補助"
+
+#: ./vocabularies.py:107
+msgid "Doctoral Fellowships"
+msgstr "博士論文獎學金"
+
+#: ./vocabularies.py:132
+msgid "Essay"
+msgstr "學位論文"
+
+#: ./vocabularies.py:26
+msgid "Estonia"
+msgstr "愛沙尼亞"
+
+#: ./vocabularies.py:129
+msgid "Family Tree"
+msgstr "家譜族譜"
+
+#: ./vocabularies.py:27
+msgid "Finland"
+msgstr "芬蘭"
+
+#: ./vocabularies.py:28
+msgid "France"
+msgstr "法國"
+
+#: ./vocabularies.py:29
+msgid "Germany"
+msgstr "德國"
+
+#: ./vocabularies.py:113
+msgid "Graduate Student Workshops"
+msgstr "研究生研討會"
+
+#: ./vocabularies.py:112
+msgid "Graduate Student and Faculty Mobility Grants"
+msgstr "移地研究"
+
+#: ./profiles/default/types/grant.xml
+msgid "Grant"
+msgstr "獎助"
+
+#: ./profiles/default/types/grant.xml
+msgid "Grant Type"
+msgstr "獎助申請"
+
+#: ./vocabularies.py:30
+msgid "Greece"
+msgstr "希臘"
+
+#: ./behaviors/custom.py:16
+msgid "Hint Image"
+msgstr "樣圖"
+
+#: ./behaviors/custom.py:22
+msgid "Hint Image Caption"
+msgstr "樣圖說明"
+
+#: ./vocabularies.py:31
+msgid "Hong Kong"
+msgstr "香港"
+
+#: ./vocabularies.py:32
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: ./vocabularies.py:33
+msgid "Iceland"
+msgstr "冰島"
+
+#: ./models/grant.xml
+msgid "Id"
+msgstr "識別碼"
+
+#: ./vocabularies.py:34
+msgid "India"
+msgstr "印度"
+
+#: ./vocabularies.py:35
+msgid "Indonesia"
+msgstr "印尼"
+
+#: ./browser/aggregate_view.pt:45
+#: ./browser/grant.pt:26
+#: ./models/grant.xml
+msgid "Institute"
+msgstr "機構"
+
+#: ./vocabularies.py:92
+msgid "Institutional Enhancement Grants"
+msgstr "學術機構補助"
+
+#: ./vocabularies.py:36
+msgid "Ireland"
+msgstr "愛爾蘭"
+
+#: ./vocabularies.py:37
+msgid "Israel"
+msgstr "以色列"
+
+#: ./vocabularies.py:38
+msgid "Italy"
+msgstr "義大利"
+
+#: ./vocabularies.py:39
+msgid "Japan"
+msgstr "日本"
+
+#: ./vocabularies.py:40
+msgid "Jordan"
+msgstr "約旦"
+
+#: ./vocabularies.py:131
+msgid "Journal"
+msgstr "期刊論文"
+
+#: ./vocabularies.py:104
+msgid "Junior Scholar Grants"
+msgstr "青年學者補助"
+
+#: ./vocabularies.py:41
+msgid "Kazakhstan"
+msgstr "哈薩克"
+
+#: ./vocabularies.py:42
+msgid "Korea"
+msgstr "韓國"
+
+#: ./vocabularies.py:43
+msgid "Latvia"
+msgstr "拉脫維亞"
+
+#: ./vocabularies.py:101
+msgid "Lecture Series Grants"
+msgstr "系列講座"
+
+#: ./vocabularies.py:126
+msgid "Library"
+msgstr "數位圖書館、資料庫"
+
+#: ./vocabularies.py:94
+msgid "Library Acquisition Grants"
+msgstr "圖書館補助"
+
+#: ./models/sinology.xml
+msgid "Link to the Resource."
+msgstr "資源網址"
+
+#: ./vocabularies.py:127
+msgid "Literature"
+msgstr "古籍文獻"
+
+#: ./vocabularies.py:44
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: ./vocabularies.py:45
+msgid "Macau"
+msgstr "澳門"
+
+#: ./vocabularies.py:46
+msgid "Malaysia"
+msgstr "馬來西亞"
+
+#: ./vocabularies.py:47
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: ./vocabularies.py:48
+msgid "Mongolia"
+msgstr "蒙古"
+
+#: ./vocabularies.py:49
+msgid "New Zealand"
+msgstr "紐西蘭"
+
+#: ./vocabularies.py:133
+msgid "Newspapper"
+msgstr "報刊索引"
+
+#: ./vocabularies.py:50
+msgid "Norway"
+msgstr "挪威"
+
+#: ./vocabularies.py:51
+msgid "Panama"
+msgstr "巴拿馬"
+
+#: ./vocabularies.py:52
+msgid "Philippines"
+msgstr "菲律賓"
+
+#: ./vocabularies.py:53
+msgid "Poland"
+msgstr "波蘭"
+
+#: ./vocabularies.py:54
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: ./vocabularies.py:108
+msgid "Postdoctoral Research Fellowships"
+msgstr "博士後研究"
+
+#: ./vocabularies.py:98
+msgid "Professor Grants"
+msgstr "教授補助"
+
+#: ./browser/aggregate_view.pt:40
+#: ./browser/grant.pt:20
+#: ./models/grant.xml
+msgid "Project"
+msgstr "計畫"
+
+#: ./vocabularies.py:89
+msgid "Publication Subsidies"
+msgstr "出版補助"
+
+#: ./models/grant.xml
+msgid "Region"
+msgstr "國家(地區)"
+
+#: ./vocabularies.py:128
+msgid "Religion"
+msgstr "宗教"
+
+#: ./vocabularies.py:55
+msgid "Republic of China"
+msgstr "中華民國"
+
+#: ./vocabularies.py:88
+msgid "Research Grants"
+msgstr "研究計畫"
+
+#: ./models/sinology.xml
+msgid "Resource Classification."
+msgstr "資源的類別"
+
+#: ./vocabularies.py:56
+msgid "Romania"
+msgstr "羅馬尼亞"
+
+#: ./vocabularies.py:57
+msgid "Russia"
+msgstr "俄羅斯"
+
+#: ./vocabularies.py:103
+msgid "Scholar Grants"
+msgstr "學者補助"
+
+#: ./vocabularies.py:124
+msgid "Selected"
+msgstr "資源選介"
+
+#: ./vocabularies.py:93
+msgid "Senior Scholar Grants"
+msgstr "資深學者補助"
+
+#: ./vocabularies.py:58
+msgid "Serbia"
+msgstr "塞爾維亞"
+
+#: ./vocabularies.py:59
+msgid "Singapore"
+msgstr "新加坡"
+
+#: ./profiles/default/types/sinology.xml
+msgid "Sinology"
+msgstr "漢學"
+
+#: ./profiles/default/types/sinology.xml
+msgid "Sinology Type"
+msgstr "漢學資源"
+
+#: ./vocabularies.py:60
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: ./vocabularies.py:61
+msgid "Slovenia"
+msgstr "斯洛文尼亞"
+
+#: ./vocabularies.py:62
+msgid "South Africa"
+msgstr "南非"
+
+#: ./vocabularies.py:63
+msgid "Spain"
+msgstr "西班牙"
+
+#: ./vocabularies.py:96
+msgid "Special Project Grants"
+msgstr "專案"
+
+#: ./models/grant.xml
+msgid "Status"
+msgstr "執行狀況"
+
+#: ./vocabularies.py:64
+msgid "Sweden"
+msgstr "瑞典"
+
+#: ./vocabularies.py:65
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: ./vocabularies.py:66
+msgid "Thailand"
+msgstr "泰國"
+
+#: ./vocabularies.py:67
+msgid "The Netherlands"
+msgstr "荷蘭"
+
+#: ./browser/aggregate_view.pt:69
+msgid "There are currently no items in this collection."
+msgstr "這個選集裡沒有任何項目。"
+
+#: ./vocabularies.py:97
+msgid "Travel Grants"
+msgstr "旅費補助"
+
+#: ./vocabularies.py:68
+msgid "Turkey"
+msgstr "土耳其"
+
+#: ./vocabularies.py:70
+msgid "UK"
+msgstr "英國"
+
+#: ./browser/sinology.pt:19
+#: ./models/sinology.xml
+msgid "URL"
+msgstr "網址"
+
+#: ./vocabularies.py:72
+msgid "USA"
+msgstr "美國"
+
+#: ./vocabularies.py:73
+msgid "USSR"
+msgstr "蘇聯"
+
+#: ./vocabularies.py:69
+msgid "Uganda"
+msgstr "烏干達"
+
+#: ./vocabularies.py:71
+msgid "Ukraine"
+msgstr "烏克蘭"
+
+#: ./vocabularies.py:74
+msgid "Uzbekistan"
+msgstr "烏茲別克"
+
+#: ./vocabularies.py:75
+msgid "Vietnam"
+msgstr "越南"
+
+#: ./vocabularies.py:95
+msgid "Visiting Fellowships"
+msgstr "訪問學者"
+
+#: ./vocabularies.py:106
+msgid "Walter Judd Research Fellowship"
+msgstr "周以德獎助案"
+
+#: ./browser/aggregate_view.pt:35
+#: ./browser/grant.pt:13
+#: ./models/grant.xml
+msgid "Year"
+msgstr "年度"
+
+#: ./vocabularies.py:76
+msgid "Yugoslavia"
+msgstr "南斯拉夫"
+
