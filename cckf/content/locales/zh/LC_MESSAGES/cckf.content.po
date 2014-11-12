@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2014-08-08 07:18+0000\n"
-"PO-Revision-Date: 2014-08-08 15:18+0800\n"
+"POT-Creation-Date: 2014-11-12 07:40+0000\n"
+"PO-Revision-Date: 2014-11-12 15:40+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -17,10 +17,6 @@ msgstr ""
 #: ./vocabularies.py:134
 msgid "Archive"
 msgstr "網路數位圖書資源"
-
-#: ./models/grant.xml
-msgid "Attached Files"
-msgstr ""
 
 #: ./vocabularies.py:14
 msgid "Australia"
@@ -47,7 +43,7 @@ msgid "Biography"
 msgstr "人物傳記"
 
 #: ./browser/aggregate_view.pt:58
-#: ./browser/grant.pt:47
+#: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
 msgstr "核定金額"
@@ -68,7 +64,7 @@ msgstr "加拿大亞洲研究協會博士後研究"
 msgid "Canadian Asian Studies Association/Pre"
 msgstr "加拿大亞洲研究協會博士論文獎學金"
 
-#: ./browser/grant.pt:42
+#: ./browser/grant.pt:45
 #: ./models/grant.xml
 msgid "Category"
 msgstr "申請類別"
@@ -110,6 +106,10 @@ msgstr "哥斯大黎加"
 msgid "Croatia"
 msgstr "克羅埃西亞"
 
+#: ./models/grant.xml
+msgid "Currency"
+msgstr "幣別"
+
 #: ./vocabularies.py:24
 msgid "Czech Republic"
 msgstr "捷克"
@@ -122,8 +122,12 @@ msgstr "資料庫建置"
 msgid "Denmark"
 msgstr "丹麥"
 
+#: ./models/grant.xml
+msgid "Department"
+msgstr "系所單位"
+
 #: ./browser/aggregate_view.pt:53
-#: ./browser/grant.pt:37
+#: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
 msgstr "主持人"
@@ -159,6 +163,11 @@ msgstr "愛沙尼亞"
 #: ./vocabularies.py:129
 msgid "Family Tree"
 msgstr "家譜族譜"
+
+#: ./browser/grant.pt:56
+#: ./models/grant.xml
+msgid "File"
+msgstr "附檔"
 
 #: ./vocabularies.py:27
 msgid "Finland"
@@ -215,6 +224,10 @@ msgstr "冰島"
 #: ./models/grant.xml
 msgid "Id"
 msgstr "識別碼"
+
+#: ./behaviors/custom.py:17
+msgid "Image Size: 800x530"
+msgstr "圖檔最佳尺寸：800x530 像素"
 
 #: ./vocabularies.py:34
 msgid "India"

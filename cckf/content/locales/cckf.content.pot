@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-08 07:18+0000\n"
+"POT-Creation-Date: 2014-11-12 07:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,6 @@ msgstr ""
 
 #: ./vocabularies.py:134
 msgid "Archive"
-msgstr ""
-
-#: ./models/grant.xml
-msgid "Attached Files"
 msgstr ""
 
 #: ./vocabularies.py:14
@@ -50,7 +46,7 @@ msgid "Biography"
 msgstr ""
 
 #: ./browser/aggregate_view.pt:58
-#: ./browser/grant.pt:47
+#: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
 msgstr ""
@@ -71,7 +67,7 @@ msgstr ""
 msgid "Canadian Asian Studies Association/Pre"
 msgstr ""
 
-#: ./browser/grant.pt:42
+#: ./browser/grant.pt:45
 #: ./models/grant.xml
 msgid "Category"
 msgstr ""
@@ -113,6 +109,10 @@ msgstr ""
 msgid "Croatia"
 msgstr ""
 
+#: ./models/grant.xml
+msgid "Currency"
+msgstr ""
+
 #: ./vocabularies.py:24
 msgid "Czech Republic"
 msgstr ""
@@ -125,8 +125,12 @@ msgstr ""
 msgid "Denmark"
 msgstr ""
 
+#: ./models/grant.xml
+msgid "Department"
+msgstr ""
+
 #: ./browser/aggregate_view.pt:53
-#: ./browser/grant.pt:37
+#: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
 msgstr ""
@@ -161,6 +165,11 @@ msgstr ""
 
 #: ./vocabularies.py:129
 msgid "Family Tree"
+msgstr ""
+
+#: ./browser/grant.pt:56
+#: ./models/grant.xml
+msgid "File"
 msgstr ""
 
 #: ./vocabularies.py:27
@@ -217,6 +226,10 @@ msgstr ""
 
 #: ./models/grant.xml
 msgid "Id"
+msgstr ""
+
+#: ./behaviors/custom.py:17
+msgid "Image Size: 800x530"
 msgstr ""
 
 #: ./vocabularies.py:34
