@@ -15,13 +15,13 @@
  tal:condition="context/text"
  tal:content="structure python:context.text.output_relative_to(view.context)" />
 
-<div tal:condition="context/remoteUrl">
+<div class="box-info" tal:condition="context/remoteUrl">
   <span i18n:translate="">URL</span>:
-  <a href="#"
+  <a href="#" target="_blank"
    tal:attributes="href context/remoteUrl"
    tal:content="context/remoteUrl">http://exmaple.org/</a>
 </div>
-<div tal:condition="context/image">
+<div id="attachment" tal:condition="context/image">
   <img tal:define="scale context/@@images"
        tal:replace="structure python: scale.scale('image', width=800, height=800).tag()" />
 </div>

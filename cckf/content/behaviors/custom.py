@@ -14,7 +14,7 @@ class IHintImage(model.Schema):
 
     image = namedfile.NamedBlobImage(
         title=_(u"Hint Image"),
-        description=u"",
+        description=_(u"Image Size: 800x530"),
         required=False,
     )
 
