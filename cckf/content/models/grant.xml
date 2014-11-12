@@ -62,6 +62,12 @@
     <title i18n:translate="">Status</title>
     <required>False</required>
   </field>
+  <field name="file"
+   type="plone.namedfile.field.NamedBlobFile">
+    <description />
+    <title i18n:translate="">File</title>
+    <required>False</required>
+  </field>
 
 </schema>
 

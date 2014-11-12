@@ -52,6 +52,18 @@
 <span tal:replace="context/currency" />
 <span tal:replace="context/budget" />
 </div>
+<div tal:condition="context/file">
+<label class="fieldHead" i18n:translate="">File</label>
+<span class="forText">:</span>
+<tal:file define="content_type context/file/contentType|nothing;
+                  v python:context.restrictedTraverse('contenttype_utils');">
+<a tal:attributes="href string:${context/absolute_url}/@@download/file/${context/file/filename}">
+<img tal:attributes="src python: v.getMimeTypeIcon(context.file);
+                     alt content_type;" border="0" />
+<tal:name tal:content="context/file/filename" >Filename</tal:name>
+</a>
+</tal:file>
+</div>
 </metal:text>
 
 </body>
