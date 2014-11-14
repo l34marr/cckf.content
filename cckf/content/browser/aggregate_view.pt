@@ -36,14 +36,18 @@
 <span class="forText">:</span>
 <span tal:replace="obj/year" />
 </div>
-<div>
+<div style="display:inline-block; width:86px; vertical-align:top;">
 <label class="fieldHead" i18n:translate="">Project</label>
 <span class="forText">:</span>
+</div>
+<div class="wrapping">
 <span tal:replace="obj/title" />
 </div>
-<div>
+<div style="display:inline-block; width:86px; vertical-align:top;">
 <label class="fieldHead" i18n:translate="">Institute</label>
 <span class="forText">:</span>
+</div>
+<div class="wrapping">
 <span tal:replace="obj/description" />
 <span tal:condition="obj/region">
 , <span tal:replace="python:view.t_title('cckf.region',obj.region)" />
