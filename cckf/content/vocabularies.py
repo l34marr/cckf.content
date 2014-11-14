@@ -5,6 +5,20 @@ from zope.schema.vocabulary import SimpleTerm
 from cckf.content import MessageFactory as _
 
 
+class Area(object):
+    """Area Vocabulary
+    """
+    implements(IVocabularyFactory)
+    def __call__(self, context=None):
+        items = (
+            SimpleTerm(value='Domestic', title=_(u'Domestic')),
+            SimpleTerm(value='American', title=_(u'American')),
+            SimpleTerm(value='European', title=_(u'European')),
+            SimpleTerm(value='Asia-Pacific', title=_(u'Asia-Pacific'))
+        )
+        return SimpleVocabulary(items)
+AreaFactory = Area()
+
 class Region(object):
     """Region Vocabulary
     """

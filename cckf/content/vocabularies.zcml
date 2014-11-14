@@ -5,6 +5,11 @@
   i18n_domain="cckf.content">
 
   <utility
+    name="cckf.area"
+    component=".vocabularies.AreaFactory"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
     name="cckf.region"
     component=".vocabularies.RegionFactory"
     provides="zope.schema.interfaces.IVocabularyFactory" />

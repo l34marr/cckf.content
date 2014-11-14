@@ -15,7 +15,7 @@ msgstr ""
 "Domain: cckf.content\n"
 
 #: ./vocabularies.py:17
-msgid "APAC"
+msgid "Asia-Pacific"
 msgstr "亞太地區"
 
 #: ./vocabularies.py:15
