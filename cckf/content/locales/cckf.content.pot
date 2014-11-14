@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-12 07:40+0000\n"
+"POT-Creation-Date: 2014-11-14 04:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,53 +17,61 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
 
-#: ./vocabularies.py:134
-msgid "Archive"
-msgstr ""
-
-#: ./vocabularies.py:14
-msgid "Australia"
+#: ./vocabularies.py:17
+msgid "APAC"
 msgstr ""
 
 #: ./vocabularies.py:15
+msgid "American"
+msgstr ""
+
+#: ./vocabularies.py:148
+msgid "Archive"
+msgstr ""
+
+#: ./vocabularies.py:28
+msgid "Australia"
+msgstr ""
+
+#: ./vocabularies.py:29
 msgid "Austria"
 msgstr ""
 
-#: ./vocabularies.py:16
+#: ./vocabularies.py:30
 msgid "Bangladesh"
 msgstr ""
 
-#: ./vocabularies.py:17
+#: ./vocabularies.py:31
 msgid "Belgium"
 msgstr ""
 
-#: ./vocabularies.py:99
+#: ./vocabularies.py:113
 msgid "Bilateral Cooperation Grants"
 msgstr ""
 
-#: ./vocabularies.py:130
+#: ./vocabularies.py:144
 msgid "Biography"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:58
+#: ./browser/aggregate_view.pt:67
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
 msgstr ""
 
-#: ./vocabularies.py:18
+#: ./vocabularies.py:32
 msgid "Bulgaria"
 msgstr ""
 
-#: ./vocabularies.py:19
+#: ./vocabularies.py:33
 msgid "Canada"
 msgstr ""
 
-#: ./vocabularies.py:110
+#: ./vocabularies.py:124
 msgid "Canadian Asian Studies Association/Post"
 msgstr ""
 
-#: ./vocabularies.py:111
+#: ./vocabularies.py:125
 msgid "Canadian Asian Studies Association/Pre"
 msgstr ""
 
@@ -72,11 +80,11 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: ./vocabularies.py:20
+#: ./vocabularies.py:34
 msgid "Chile"
 msgstr ""
 
-#: ./vocabularies.py:21
+#: ./vocabularies.py:35
 msgid "China"
 msgstr ""
 
@@ -89,23 +97,23 @@ msgstr ""
 msgid "Classify"
 msgstr ""
 
-#: ./vocabularies.py:87
+#: ./vocabularies.py:101
 msgid "Conference and Seminar Grants"
 msgstr ""
 
-#: ./vocabularies.py:100
+#: ./vocabularies.py:114
 msgid "Consortium Operations"
 msgstr ""
 
-#: ./vocabularies.py:105
+#: ./vocabularies.py:119
 msgid "Cooperative Guidance"
 msgstr ""
 
-#: ./vocabularies.py:22
+#: ./vocabularies.py:36
 msgid "Costa Rica"
 msgstr ""
 
-#: ./vocabularies.py:23
+#: ./vocabularies.py:37
 msgid "Croatia"
 msgstr ""
 
@@ -113,15 +121,15 @@ msgstr ""
 msgid "Currency"
 msgstr ""
 
-#: ./vocabularies.py:24
+#: ./vocabularies.py:38
 msgid "Czech Republic"
 msgstr ""
 
-#: ./vocabularies.py:90
+#: ./vocabularies.py:104
 msgid "Database Grants"
 msgstr ""
 
-#: ./vocabularies.py:25
+#: ./vocabularies.py:39
 msgid "Denmark"
 msgstr ""
 
@@ -129,41 +137,49 @@ msgstr ""
 msgid "Department"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:53
+#: ./browser/aggregate_view.pt:61
 #: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
 msgstr ""
 
-#: ./vocabularies.py:125
+#: ./vocabularies.py:139
 msgid "Directory"
 msgstr ""
 
-#: ./vocabularies.py:109
+#: ./vocabularies.py:123
 msgid "Dissertation Fellowships for ROC Students Abroad"
 msgstr ""
 
-#: ./vocabularies.py:91
+#: ./vocabularies.py:105
 msgid "Distinguished Lectureships"
 msgstr ""
 
-#: ./vocabularies.py:102
+#: ./vocabularies.py:116
 msgid "Distinguished Scholar Grants"
 msgstr ""
 
-#: ./vocabularies.py:107
+#: ./vocabularies.py:121
 msgid "Doctoral Fellowships"
 msgstr ""
 
-#: ./vocabularies.py:132
+#: ./vocabularies.py:14
+msgid "Domestic"
+msgstr ""
+
+#: ./vocabularies.py:146
 msgid "Essay"
 msgstr ""
 
-#: ./vocabularies.py:26
+#: ./vocabularies.py:40
 msgid "Estonia"
 msgstr ""
 
-#: ./vocabularies.py:129
+#: ./vocabularies.py:16
+msgid "European"
+msgstr ""
+
+#: ./vocabularies.py:143
 msgid "Family Tree"
 msgstr ""
 
@@ -172,23 +188,23 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: ./vocabularies.py:27
+#: ./vocabularies.py:41
 msgid "Finland"
 msgstr ""
 
-#: ./vocabularies.py:28
+#: ./vocabularies.py:42
 msgid "France"
 msgstr ""
 
-#: ./vocabularies.py:29
+#: ./vocabularies.py:43
 msgid "Germany"
 msgstr ""
 
-#: ./vocabularies.py:113
+#: ./vocabularies.py:127
 msgid "Graduate Student Workshops"
 msgstr ""
 
-#: ./vocabularies.py:112
+#: ./vocabularies.py:126
 msgid "Graduate Student and Faculty Mobility Grants"
 msgstr ""
 
@@ -200,7 +216,7 @@ msgstr ""
 msgid "Grant Type"
 msgstr ""
 
-#: ./vocabularies.py:30
+#: ./vocabularies.py:44
 msgid "Greece"
 msgstr ""
 
@@ -212,15 +228,15 @@ msgstr ""
 msgid "Hint Image Caption"
 msgstr ""
 
-#: ./vocabularies.py:31
+#: ./vocabularies.py:45
 msgid "Hong Kong"
 msgstr ""
 
-#: ./vocabularies.py:32
+#: ./vocabularies.py:46
 msgid "Hungary"
 msgstr ""
 
-#: ./vocabularies.py:33
+#: ./vocabularies.py:47
 msgid "Iceland"
 msgstr ""
 
@@ -232,73 +248,73 @@ msgstr ""
 msgid "Image Size: 800x530"
 msgstr ""
 
-#: ./vocabularies.py:34
+#: ./vocabularies.py:48
 msgid "India"
 msgstr ""
 
-#: ./vocabularies.py:35
+#: ./vocabularies.py:49
 msgid "Indonesia"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:45
+#: ./browser/aggregate_view.pt:50
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
 msgid "Institute"
 msgstr ""
 
-#: ./vocabularies.py:92
+#: ./vocabularies.py:106
 msgid "Institutional Enhancement Grants"
 msgstr ""
 
-#: ./vocabularies.py:36
+#: ./vocabularies.py:50
 msgid "Ireland"
 msgstr ""
 
-#: ./vocabularies.py:37
+#: ./vocabularies.py:51
 msgid "Israel"
 msgstr ""
 
-#: ./vocabularies.py:38
+#: ./vocabularies.py:52
 msgid "Italy"
 msgstr ""
 
-#: ./vocabularies.py:39
+#: ./vocabularies.py:53
 msgid "Japan"
 msgstr ""
 
-#: ./vocabularies.py:40
+#: ./vocabularies.py:54
 msgid "Jordan"
 msgstr ""
 
-#: ./vocabularies.py:131
+#: ./vocabularies.py:145
 msgid "Journal"
 msgstr ""
 
-#: ./vocabularies.py:104
+#: ./vocabularies.py:118
 msgid "Junior Scholar Grants"
 msgstr ""
 
-#: ./vocabularies.py:41
+#: ./vocabularies.py:55
 msgid "Kazakhstan"
 msgstr ""
 
-#: ./vocabularies.py:42
+#: ./vocabularies.py:56
 msgid "Korea"
 msgstr ""
 
-#: ./vocabularies.py:43
+#: ./vocabularies.py:57
 msgid "Latvia"
 msgstr ""
 
-#: ./vocabularies.py:101
+#: ./vocabularies.py:115
 msgid "Lecture Series Grants"
 msgstr ""
 
-#: ./vocabularies.py:126
+#: ./vocabularies.py:140
 msgid "Library"
 msgstr ""
 
-#: ./vocabularies.py:94
+#: ./vocabularies.py:108
 msgid "Library Acquisition Grants"
 msgstr ""
 
@@ -306,73 +322,73 @@ msgstr ""
 msgid "Link to the Resource."
 msgstr ""
 
-#: ./vocabularies.py:127
+#: ./vocabularies.py:141
 msgid "Literature"
 msgstr ""
 
-#: ./vocabularies.py:44
+#: ./vocabularies.py:58
 msgid "Lithuania"
 msgstr ""
 
-#: ./vocabularies.py:45
+#: ./vocabularies.py:59
 msgid "Macau"
 msgstr ""
 
-#: ./vocabularies.py:46
+#: ./vocabularies.py:60
 msgid "Malaysia"
 msgstr ""
 
-#: ./vocabularies.py:47
+#: ./vocabularies.py:61
 msgid "Mexico"
 msgstr ""
 
-#: ./vocabularies.py:48
+#: ./vocabularies.py:62
 msgid "Mongolia"
 msgstr ""
 
-#: ./vocabularies.py:49
+#: ./vocabularies.py:63
 msgid "New Zealand"
 msgstr ""
 
-#: ./vocabularies.py:133
+#: ./vocabularies.py:147
 msgid "Newspapper"
 msgstr ""
 
-#: ./vocabularies.py:50
+#: ./vocabularies.py:64
 msgid "Norway"
 msgstr ""
 
-#: ./vocabularies.py:51
+#: ./vocabularies.py:65
 msgid "Panama"
 msgstr ""
 
-#: ./vocabularies.py:52
+#: ./vocabularies.py:66
 msgid "Philippines"
 msgstr ""
 
-#: ./vocabularies.py:53
+#: ./vocabularies.py:67
 msgid "Poland"
 msgstr ""
 
-#: ./vocabularies.py:54
+#: ./vocabularies.py:68
 msgid "Portugal"
 msgstr ""
 
-#: ./vocabularies.py:108
+#: ./vocabularies.py:122
 msgid "Postdoctoral Research Fellowships"
 msgstr ""
 
-#: ./vocabularies.py:98
+#: ./vocabularies.py:112
 msgid "Professor Grants"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:40
+#: ./browser/aggregate_view.pt:42
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
 msgstr ""
 
-#: ./vocabularies.py:89
+#: ./vocabularies.py:103
 msgid "Publication Subsidies"
 msgstr ""
 
@@ -380,15 +396,15 @@ msgstr ""
 msgid "Region"
 msgstr ""
 
-#: ./vocabularies.py:128
+#: ./vocabularies.py:142
 msgid "Religion"
 msgstr ""
 
-#: ./vocabularies.py:55
+#: ./vocabularies.py:69
 msgid "Republic of China"
 msgstr ""
 
-#: ./vocabularies.py:88
+#: ./vocabularies.py:102
 msgid "Research Grants"
 msgstr ""
 
@@ -396,31 +412,31 @@ msgstr ""
 msgid "Resource Classification."
 msgstr ""
 
-#: ./vocabularies.py:56
+#: ./vocabularies.py:70
 msgid "Romania"
 msgstr ""
 
-#: ./vocabularies.py:57
+#: ./vocabularies.py:71
 msgid "Russia"
 msgstr ""
 
-#: ./vocabularies.py:103
+#: ./vocabularies.py:117
 msgid "Scholar Grants"
 msgstr ""
 
-#: ./vocabularies.py:124
+#: ./vocabularies.py:138
 msgid "Selected"
 msgstr ""
 
-#: ./vocabularies.py:93
+#: ./vocabularies.py:107
 msgid "Senior Scholar Grants"
 msgstr ""
 
-#: ./vocabularies.py:58
+#: ./vocabularies.py:72
 msgid "Serbia"
 msgstr ""
 
-#: ./vocabularies.py:59
+#: ./vocabularies.py:73
 msgid "Singapore"
 msgstr ""
 
@@ -432,23 +448,23 @@ msgstr ""
 msgid "Sinology Type"
 msgstr ""
 
-#: ./vocabularies.py:60
+#: ./vocabularies.py:74
 msgid "Slovakia"
 msgstr ""
 
-#: ./vocabularies.py:61
+#: ./vocabularies.py:75
 msgid "Slovenia"
 msgstr ""
 
-#: ./vocabularies.py:62
+#: ./vocabularies.py:76
 msgid "South Africa"
 msgstr ""
 
-#: ./vocabularies.py:63
+#: ./vocabularies.py:77
 msgid "Spain"
 msgstr ""
 
-#: ./vocabularies.py:96
+#: ./vocabularies.py:110
 msgid "Special Project Grants"
 msgstr ""
 
@@ -456,35 +472,35 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: ./vocabularies.py:64
+#: ./vocabularies.py:78
 msgid "Sweden"
 msgstr ""
 
-#: ./vocabularies.py:65
+#: ./vocabularies.py:79
 msgid "Switzerland"
 msgstr ""
 
-#: ./vocabularies.py:66
+#: ./vocabularies.py:80
 msgid "Thailand"
 msgstr ""
 
-#: ./vocabularies.py:67
+#: ./vocabularies.py:81
 msgid "The Netherlands"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:69
+#: ./browser/aggregate_view.pt:79
 msgid "There are currently no items in this collection."
 msgstr ""
 
-#: ./vocabularies.py:97
+#: ./vocabularies.py:111
 msgid "Travel Grants"
 msgstr ""
 
-#: ./vocabularies.py:68
+#: ./vocabularies.py:82
 msgid "Turkey"
 msgstr ""
 
-#: ./vocabularies.py:70
+#: ./vocabularies.py:84
 msgid "UK"
 msgstr ""
 
@@ -493,45 +509,45 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: ./vocabularies.py:72
+#: ./vocabularies.py:86
 msgid "USA"
 msgstr ""
 
-#: ./vocabularies.py:73
+#: ./vocabularies.py:87
 msgid "USSR"
 msgstr ""
 
-#: ./vocabularies.py:69
+#: ./vocabularies.py:83
 msgid "Uganda"
 msgstr ""
 
-#: ./vocabularies.py:71
+#: ./vocabularies.py:85
 msgid "Ukraine"
 msgstr ""
 
-#: ./vocabularies.py:74
+#: ./vocabularies.py:88
 msgid "Uzbekistan"
 msgstr ""
 
-#: ./vocabularies.py:75
+#: ./vocabularies.py:89
 msgid "Vietnam"
 msgstr ""
 
-#: ./vocabularies.py:95
+#: ./vocabularies.py:109
 msgid "Visiting Fellowships"
 msgstr ""
 
-#: ./vocabularies.py:106
+#: ./vocabularies.py:120
 msgid "Walter Judd Research Fellowship"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:35
+#: ./browser/aggregate_view.pt:36
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"
 msgstr ""
 
-#: ./vocabularies.py:76
+#: ./vocabularies.py:90
 msgid "Yugoslavia"
 msgstr ""
 
