@@ -28,7 +28,7 @@ setup(name='cckf.content',
           'setuptools',
           'plone.app.dexterity [grok]',
           'plone.namedfile [blobs]',
-          # -*- Extra requirements: -*-
+          'plone.formwidget.multifile',
       ],
       entry_points="""
       # -*- Entry points: -*-
