@@ -8,6 +8,11 @@
 
 <body>
 
+<metal:description fill-slot="content-description">
+<div class="documentDescription" style="display:none"
+ tal:content="context/Description"></div>
+</metal:description>
+
 <metal:content-core fill-slot="content-core">
   <metal:content-core define-macro="content-core">
 
