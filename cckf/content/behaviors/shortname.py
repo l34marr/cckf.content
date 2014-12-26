@@ -61,10 +61,12 @@ class NameFromSerial(object):
         site = getUtility(ISiteRoot)
         catalog = getToolByName(site, 'portal_catalog')
         brain = catalog(portal_type='sinology', sort_on='id')
-        last_brain = brain[-1]
-        last_id = int(last_brain.getId)
-        instance.title = '%s' % (str(last_id + 1).zfill(5))
-        #import pdb; pdb.set_trace()
+        if len(brain) > 0:
+            last_brain = brain[-1]
+            last_id = int(last_brain.getId)
+            instance.title = '%s' % (str(last_id + 1).zfill(5))
+        else:
+            instance.title = '00001'
         return instance
 
     def __init__(self, context):
