@@ -6,6 +6,12 @@
 
   <browser:page
     name="view"
+    for="cckf.content.content.INews"
+    template="news.pt"
+    permission="zope.Public" />
+
+  <browser:page
+    name="view"
     for="cckf.content.content.IGrant"
     class=".view.MyView"
     template="grant.pt"
