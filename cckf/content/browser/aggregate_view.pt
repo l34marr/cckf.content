@@ -25,7 +25,7 @@
 <ol style="list-style-type: upper-alpha; font-size: 1em; font-weight: bold">
 <tal:keys define="global cat_names all/keys"
  tal:repeat="cat cat_names">
-<li style="margin-left: 25px; margin-bottom: 10px"
+<li style="margin-bottom: 10px"
  tal:content="python:view.t_title('cckf.category',cat)">Category</li>
 <tal:list define="global items python:all[cat]"
  tal:repeat="item items">
