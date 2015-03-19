@@ -12,6 +12,12 @@
 
   <browser:page
     name="view"
+    for="cckf.content.content.IActivity"
+    template="activity.pt"
+    permission="zope.Public" />
+
+  <browser:page
+    name="view"
     for="cckf.content.content.IGrant"
     class=".view.MyView"
     template="grant.pt"
