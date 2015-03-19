@@ -16,7 +16,10 @@
   <metal:entry fill-slot="entry">
 
     <div class="tileItem visualIEFloatFix"
-     tal:define="obj item/getObject">
+     tal:define="obj item/getObject;
+                 site_properties context/portal_properties/site_properties;
+                 types_listings site_properties/typesUseViewActionInListings;
+                 use_view_action types_listings|python:();">
       <a href="#"
        tal:attributes="href item/getURL">
         <div style="float: left; margin: 0 1em 0.5em 0;">
