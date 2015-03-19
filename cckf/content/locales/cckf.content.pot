@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-14 04:48+0000\n"
+"POT-Creation-Date: 2015-03-19 07:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,12 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
 
-#: ./vocabularies.py:17
-msgid "Asia-Pacific"
+#: ./profiles/default/types/activity.xml
+msgid "Activity"
+msgstr ""
+
+#: ./profiles/default/types/activity.xml
+msgid "Activity Type"
 msgstr ""
 
 #: ./vocabularies.py:15
@@ -27,6 +31,10 @@ msgstr ""
 
 #: ./vocabularies.py:148
 msgid "Archive"
+msgstr ""
+
+#: ./vocabularies.py:17
+msgid "Asia-Pacific"
 msgstr ""
 
 #: ./vocabularies.py:28
@@ -53,7 +61,7 @@ msgstr ""
 msgid "Biography"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:67
+#: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
@@ -92,7 +100,7 @@ msgstr ""
 msgid "Classification"
 msgstr ""
 
-#: ./browser/sinology.pt:30
+#: ./browser/sinology.pt:35
 #: ./models/sinology.xml
 msgid "Classify"
 msgstr ""
@@ -137,7 +145,12 @@ msgstr ""
 msgid "Department"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:61
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Description"
+msgstr ""
+
+#: ./browser/aggregate_view.pt:57
 #: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
@@ -240,8 +253,14 @@ msgstr ""
 msgid "Iceland"
 msgstr ""
 
+#: ./models/activity.xml
 #: ./models/grant.xml
 msgid "Id"
+msgstr ""
+
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Image"
 msgstr ""
 
 #: ./behaviors/custom.py:17
@@ -256,7 +275,7 @@ msgstr ""
 msgid "Indonesia"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:50
+#: ./browser/aggregate_view.pt:47
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
 msgid "Institute"
@@ -350,6 +369,14 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
+#: ./profiles/default/types/news.xml
+msgid "News"
+msgstr ""
+
+#: ./profiles/default/types/news.xml
+msgid "News Type"
+msgstr ""
+
 #: ./vocabularies.py:147
 msgid "Newspapper"
 msgstr ""
@@ -382,7 +409,7 @@ msgstr ""
 msgid "Professor Grants"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:42
+#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -480,6 +507,11 @@ msgstr ""
 msgid "Switzerland"
 msgstr ""
 
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Text"
+msgstr ""
+
 #: ./vocabularies.py:80
 msgid "Thailand"
 msgstr ""
@@ -488,8 +520,13 @@ msgstr ""
 msgid "The Netherlands"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:79
+#: ./browser/aggregate_view.pt:73
 msgid "There are currently no items in this collection."
+msgstr ""
+
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Title"
 msgstr ""
 
 #: ./vocabularies.py:111
@@ -504,7 +541,7 @@ msgstr ""
 msgid "UK"
 msgstr ""
 
-#: ./browser/sinology.pt:19
+#: ./browser/sinology.pt:24
 #: ./models/sinology.xml
 msgid "URL"
 msgstr ""
@@ -525,6 +562,10 @@ msgstr ""
 msgid "Ukraine"
 msgstr ""
 
+#: ./models/activity.xml
+msgid "Upload Lead Image."
+msgstr ""
+
 #: ./vocabularies.py:88
 msgid "Uzbekistan"
 msgstr ""
@@ -541,7 +582,7 @@ msgstr ""
 msgid "Walter Judd Research Fellowship"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:36
+#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"

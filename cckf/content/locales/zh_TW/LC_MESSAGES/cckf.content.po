@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2014-11-14 04:48+0000\n"
-"PO-Revision-Date: 2014-11-14 12:49+0800\n"
+"POT-Creation-Date: 2015-03-19 07:19+0000\n"
+"PO-Revision-Date: 2015-03-19 15:20+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
 
-#: ./vocabularies.py:17
-msgid "Asia-Pacific"
-msgstr "亞太地區"
+#: ./profiles/default/types/activity.xml
+msgid "Activity"
+msgstr "動態"
+
+#: ./profiles/default/types/activity.xml
+msgid "Activity Type"
+msgstr "動態表單"
 
 #: ./vocabularies.py:15
 msgid "American"
@@ -25,6 +29,10 @@ msgstr "美洲地區"
 #: ./vocabularies.py:148
 msgid "Archive"
 msgstr "網路數位圖書資源"
+
+#: ./vocabularies.py:17
+msgid "Asia-Pacific"
+msgstr "亞太地區"
 
 #: ./vocabularies.py:28
 msgid "Australia"
@@ -50,7 +58,7 @@ msgstr "雙邊合作"
 msgid "Biography"
 msgstr "人物傳記"
 
-#: ./browser/aggregate_view.pt:67
+#: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
@@ -89,7 +97,7 @@ msgstr "中國"
 msgid "Classification"
 msgstr "分類"
 
-#: ./browser/sinology.pt:30
+#: ./browser/sinology.pt:35
 #: ./models/sinology.xml
 msgid "Classify"
 msgstr "分類"
@@ -134,7 +142,12 @@ msgstr "丹麥"
 msgid "Department"
 msgstr "系所單位"
 
-#: ./browser/aggregate_view.pt:61
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Description"
+msgstr "摘要描述"
+
+#: ./browser/aggregate_view.pt:57
 #: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
@@ -237,9 +250,15 @@ msgstr "匈牙利"
 msgid "Iceland"
 msgstr "冰島"
 
+#: ./models/activity.xml
 #: ./models/grant.xml
 msgid "Id"
 msgstr "識別碼"
+
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Image"
+msgstr "縮圖"
 
 #: ./behaviors/custom.py:17
 msgid "Image Size: 800x530"
@@ -253,7 +272,7 @@ msgstr "印度"
 msgid "Indonesia"
 msgstr "印尼"
 
-#: ./browser/aggregate_view.pt:50
+#: ./browser/aggregate_view.pt:47
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
 msgid "Institute"
@@ -347,6 +366,14 @@ msgstr "蒙古"
 msgid "New Zealand"
 msgstr "紐西蘭"
 
+#: ./profiles/default/types/news.xml
+msgid "News"
+msgstr "消息"
+
+#: ./profiles/default/types/news.xml
+msgid "News Type"
+msgstr "消息表單"
+
 #: ./vocabularies.py:147
 msgid "Newspapper"
 msgstr "報刊索引"
@@ -379,7 +406,7 @@ msgstr "博士後研究"
 msgid "Professor Grants"
 msgstr "教授補助"
 
-#: ./browser/aggregate_view.pt:42
+#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -477,6 +504,11 @@ msgstr "瑞典"
 msgid "Switzerland"
 msgstr "瑞士"
 
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Text"
+msgstr "內文"
+
 #: ./vocabularies.py:80
 msgid "Thailand"
 msgstr "泰國"
@@ -485,9 +517,14 @@ msgstr "泰國"
 msgid "The Netherlands"
 msgstr "荷蘭"
 
-#: ./browser/aggregate_view.pt:79
+#: ./browser/aggregate_view.pt:73
 msgid "There are currently no items in this collection."
 msgstr "這個選集裡沒有任何項目。"
+
+#: ./models/activity.xml
+#: ./models/news.xml
+msgid "Title"
+msgstr "標題"
 
 #: ./vocabularies.py:111
 msgid "Travel Grants"
@@ -501,7 +538,7 @@ msgstr "土耳其"
 msgid "UK"
 msgstr "英國"
 
-#: ./browser/sinology.pt:19
+#: ./browser/sinology.pt:24
 #: ./models/sinology.xml
 msgid "URL"
 msgstr "網址"
@@ -522,6 +559,10 @@ msgstr "烏干達"
 msgid "Ukraine"
 msgstr "烏克蘭"
 
+#: ./models/activity.xml
+msgid "Upload Lead Image."
+msgstr "圖檔尺寸 104x104 像素。"
+
 #: ./vocabularies.py:88
 msgid "Uzbekistan"
 msgstr "烏茲別克"
@@ -538,7 +579,7 @@ msgstr "訪問學者"
 msgid "Walter Judd Research Fellowship"
 msgstr "周以德獎助案"
 
-#: ./browser/aggregate_view.pt:36
+#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"
