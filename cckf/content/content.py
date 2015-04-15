@@ -1,4 +1,4 @@
-from zope.interface import implements
+from zope.interface import implementer
 from plone.dexterity.content import Item
 
 from cckf.content.interfaces import INews
@@ -7,15 +7,23 @@ from cckf.content.interfaces import IGrant
 from cckf.content.interfaces import ISinology
 
 
+@implementer(INews)
 class News(Item):
-    implements(INews)
+    """Item Subclass for News
+    """
 
+@implementer(IActivity)
 class Activity(Item):
-    implements(IActivity)
+    """Item Subclass for Activity
+    """
 
+@implementer(IGrant)
 class Grant(Item):
-    implements(IGrant)
+    """Item Subclass for Grant
+    """
 
+@implementer(ISinology)
 class Sinology(Item):
-    implements(ISinology)
+    """Item Subclass for Sinology
+    """
 
