@@ -1,0 +1,11 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  xmlns:plone="http://namespaces.zope.org/plone">
+
+  <class class=".content.Grant"
+   zcml:condition="installed collective.geo.geographer">
+    <implements interface="collective.geo.geographer.interfaces.IGeoreferenceable" />
+  </class>
+
+</configure>
