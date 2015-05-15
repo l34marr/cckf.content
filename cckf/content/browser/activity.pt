@@ -15,6 +15,17 @@
  tal:condition="context/body"
  tal:content="structure python:context.body.output_relative_to(view.context)" />
 
+<div class="box-info"
+ tal:define="urls context/remoteUrl|nothing;"
+ tal:condition="urls">
+  <span tal:repeat="url urls">
+  <a href="#" target="_blank"
+   tal:attributes="href url"
+   tal:content="url">http://exmaple.org/</a>
+   <br tal:condition="not: repeat/url/end" />
+  </span>
+</div>
+
   </metal:content-core>
 </metal:content-core>
 

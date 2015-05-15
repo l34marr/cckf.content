@@ -20,6 +20,15 @@
     <title i18n:translate="">Description</title>
     <required>False</required>
   </field>
+  <field name="remoteUrl"
+   type="zope.schema.Tuple">
+    <title i18n:translate="">URL</title>
+    <description i18n:translate="">Link to the Resource.</description>
+    <value_type type="zope.schema.TextLine">
+    <title>URL</title>
+    </value_type>
+    <required>False</required>
+  </field>
   <field name="body"
    type="plone.app.textfield.RichText">
     <title i18n:translate="">Text</title>
