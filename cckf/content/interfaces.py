@@ -1,19 +1,19 @@
-from plone.directives import form
+from zope.interface import Interface
 
 
-class INews(form.Schema):
-    """News Type"""
-    form.model('models/news.xml')
+class INews(Interface):
+    """News Type
+    """
 
-class IActivity(form.Schema):
-    """Activity Type"""
-    form.model('models/activity.xml')
+class IActivity(Interface):
+    """Activity Type
+    """
 
-class IGrant(form.Schema):
-    """Grant Type"""
-    form.model('models/grant.xml')
+class IGrant(Interface):
+    """Grant Type
+    """
 
-class ISinology(form.Schema):
-    """Sinology Type"""
-    form.model('models/sinology.xml')
+class ISinology(Interface):
+    """Sinology Type
+    """
 

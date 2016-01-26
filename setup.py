@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.2'
 
 setup(name='cckf.content',
       version=version,
@@ -26,7 +26,7 @@ setup(name='cckf.content',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'plone.app.dexterity [grok]',
+          'plone.app.dexterity',
           'plone.namedfile [blobs]',
           'plone.formwidget.multifile',
       ],

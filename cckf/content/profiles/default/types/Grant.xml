@@ -1,32 +1,36 @@
 <?xml version="1.0"?>
-<object name="news"
+<object name="Grant"
  meta_type="Dexterity FTI"
  i18n:domain="cckf.content"
  xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
   <!-- Basic Metadata -->
-  <property name="title" i18n:translate="">News</property>
+  <property name="title" i18n:translate="">Grant</property>
   <property name="description"
-   i18n:translate="">News Type</property>
+   i18n:translate="">Grant Type</property>
   <property name="icon_expr">string:${portal_url}/document_icon.png</property>
-  <property name="factory">cckf.content.content.News</property>
+  <property name="factory">Grant</property>
+  <property name="add_view_expr">string:${folder_url}/++add++Grant</property>
   <property name="global_allow">True</property>
-  <property name="filter_content_types">False</property>  
+  <property name="filter_content_types">True</property>
   <property name="allowed_content_types" />
   <property name="allow_discussion">False</property>
 
   <!-- Schema and Class Used for Content Items -->
-  <property name="schema">cckf.content.content.INews</property> 
-  <property name="klass">cckf.content.content.News</property>
-
-  <property name="behaviors">
-    <element value="cckf.content.behaviors.shortname.INameFromCreationDate" />
+  <property name="schema"></property>
+  <property name="klass">cckf.content.content.Grant</property>
+  <property name="model_source"></property>
+  <property name="model_file">cckf.content.models:grant.xml</property>
+  <property name="behaviors" purge="false">
+    <element value="cckf.content.behaviors.shortname.INameFromId" />
     <element value="plone.app.dexterity.behaviors.metadata.ICategorization" />
     <element value="plone.app.dexterity.behaviors.metadata.IPublication" />
     <element value="plone.app.dexterity.behaviors.metadata.IOwnership" />
     <element value="plone.app.dexterity.behaviors.discussion.IAllowDiscussion" />
     <element value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation" />
     <element value="plone.app.relationfield.behavior.IRelatedItems" />
+    <!-- element value="collective.geo.behaviors.interfaces.ICoordinates" /-->
+    <!-- element value="collective.geo.behaviors.interfaces.IGeoFeatureStyle" /-->
     <!-- IReferenceable might not be available, but it will not break. -->
     <element value="plone.app.referenceablebehavior.referenceable.IReferenceable" />
   </property>
@@ -34,9 +38,9 @@
   <!-- View information -->
   <property name="link_target"></property>
   <property name="immediate_view">view</property>
-  <property name="default_view">view</property>
+  <property name="default_view">grant_view</property>
   <property name="view_methods">
-    <element value="view" />
+    <element value="grant_view" />
   </property>
   <property name="default_view_fallback">False</property>
   <property name="add_permission">cmf.AddPortalContent</property>
@@ -49,11 +53,11 @@
 
   <!-- Actions -->
   <action title="View" action_id="view" category="object" condition_expr=""
-    url_expr="string:${object_url}/" visible="True">
+    icon_expr="" link_target="" url_expr="string:${object_url}" visible="True">
     <permission value="View" />
   </action>
   <action title="Edit" action_id="edit" category="object" condition_expr=""
-    url_expr="string:${object_url}/edit" visible="True">
+    icon_expr="" link_target="" url_expr="string:${object_url}/edit" visible="True">
     <permission value="Modify portal content" />
   </action>
 

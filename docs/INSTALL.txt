@@ -15,3 +15,61 @@ recipe to manage your project, you can do this:
 * Re-run buildout, e.g. with:
 
     $ ./bin/buildout
+
+Buildout Log
+------------
+
+$ bin/buildout -c develop.cfg
+mr.developer: Queued 'cckf.content' for checkout.
+mr.developer: Filesystem package 'cckf.content' doesn't need a checkout.
+Develop: '/home/marr/plone437/zinstance/src/cckf.content'
+Uninstalling zopepy.
+Uninstalling instance.
+Installing _mr.developer.
+Generated script '/home/marr/plone437/zinstance/bin/develop'.
+Installing instance.
+/home/marr/plone437/buildout-cache/eggs/setuptools-18.3.2-py2.7.egg/pkg_resources/__init__.py:203: RuntimeWarning: You have iterated over the result of pkg_resources.parse_version. This is a legacy behavior which is inconsistent with the new version class introduced in setuptools 8.0. In most cases, conversion to a tuple is unnecessary. For comparison of versions, sort the Version instances directly. If you have another use case requiring the tuple, please file a bug with the setuptools project describing that need.
+  stacklevel=1,
+Getting distribution for 'plone.formwidget.multifile'.
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Got plone.formwidget.multifile 1.1.
+Generated script '/home/marr/plone437/zinstance/bin/instance'.
+Generated interpreter '/home/marr/plone437/zinstance/parts/instance/bin/interpreter'.
+Generated script '/home/marr/plone437/zinstance/bin/pilconvert.py'.
+Generated script '/home/marr/plone437/zinstance/bin/pildriver.py'.
+Generated script '/home/marr/plone437/zinstance/bin/pilprint.py'.
+Generated script '/home/marr/plone437/zinstance/bin/pilfile.py'.
+Generated script '/home/marr/plone437/zinstance/bin/pilfont.py'.
+Updating repozo.
+Updating backup.
+Installing zopepy.
+Generated interpreter '/home/marr/plone437/zinstance/bin/zopepy'.
+Updating unifiedinstaller.
+Installing test.
+Generated script '/home/marr/plone437/zinstance/bin/test'.
+Installing diazotools.
+Generated script '/home/marr/plone437/zinstance/bin/diazocompiler'.
+Generated script '/home/marr/plone437/zinstance/bin/diazorun'.
+Generated script '/home/marr/plone437/zinstance/bin/diazopreprocessor'.
+Installing mrbob.
+Getting distribution for 'markupsafe==0.23'.
+Got MarkupSafe 0.23.
+Generated script '/home/marr/plone437/zinstance/bin/mrbob'.
+Installing checkdocs.
+Installing releaser.
+Generated script '/home/marr/plone437/zinstance/bin/fullrelease'.
+Generated script '/home/marr/plone437/zinstance/bin/postrelease'.
+Generated script '/home/marr/plone437/zinstance/bin/lasttagdiff'.
+Generated script '/home/marr/plone437/zinstance/bin/prerelease'.
+Generated script '/home/marr/plone437/zinstance/bin/release'.
+Generated script '/home/marr/plone437/zinstance/bin/longtest'.
+Generated script '/home/marr/plone437/zinstance/bin/lasttaglog'.
+Generated script '/home/marr/plone437/zinstance/bin/pocompile'.
+Versions had to be automatically picked.
+The following part definition lists the versions picked:
+[versions]
+
+# Required by:
+# cckf.content==0.2
+plone.formwidget.multifile = 1.1
+

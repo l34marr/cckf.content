@@ -14,7 +14,7 @@
 </metal:description>
 
 <metal:content-core fill-slot="content-core">
-  <metal:content-core define-macro="content-core">
+<metal:block define-macro="content-core">
 
 <div id="parent-fieldname-text"
  tal:condition="context/text"
@@ -42,7 +42,7 @@
   </span>
 </div>
 
-  </metal:content-core>
+</metal:block>
 </metal:content-core>
 
 </body>

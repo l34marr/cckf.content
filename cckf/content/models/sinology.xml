@@ -7,6 +7,11 @@
 
   <schema>
 
+    <field name="text"
+     type="plone.app.textfield.RichText">
+      <title i18n:translate="">Tetx</title>
+      <required>False</required>
+    </field>
     <field name="remoteUrl"
      type="zope.schema.TextLine">
       <title i18n:translate="">URL</title>
