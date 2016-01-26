@@ -8,27 +8,27 @@
     name="view"
     for="cckf.content.content.INews"
     template="news.pt"
-    permission="zope.Public" />
+    permission="zope2.View" />
 
   <browser:page
     name="view"
     for="cckf.content.content.IActivity"
     template="activity.pt"
-    permission="zope.Public" />
+    permission="zope2.View" />
 
   <browser:page
     name="view"
     for="cckf.content.content.IGrant"
     class=".view.MyView"
     template="grant.pt"
-    permission="zope.Public" />
+    permission="zope2.View" />
 
   <browser:page
     name="view"
     for="cckf.content.content.ISinology"
     class=".view.MyView"
     template="sinology.pt"
-    permission="zope.Public" />
+    permission="zope2.View" />
 
   <browser:page
     name="aggregate_view"
