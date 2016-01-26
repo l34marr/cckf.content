@@ -7,21 +7,21 @@
 
   <plone:behavior
     title="Name from Creation Date"
-    description="Generates short name based on creation date."
+    description="Generates Short Name Based on Creation Date."
     provides=".shortname.INameFromCreationDate"
     for="plone.dexterity.interfaces.IDexterityContent" />
   <adapter factory=".shortname.NameFromCreationDate" />
 
   <plone:behavior
     title="Name from Serial Number"
-    description="Generates short name based on Serial Number."
+    description="Generates Short Name Based on Serial Number."
     provides=".shortname.INameFromSerial"
     for="cckf.content.interfaces.ISinology" />
   <adapter factory=".shortname.NameFromSerial" />
 
   <plone:behavior
-    title="Name from Id"
-    description="Generates short name based on Id."
+    title="Name from ID"
+    description="Generates Short Name Based on ID."
     provides=".shortname.INameFromId"
     for="cckf.content.interfaces.IGrant" />
   <adapter factory=".shortname.NameFromId" />

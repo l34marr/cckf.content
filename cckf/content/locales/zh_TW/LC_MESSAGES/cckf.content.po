@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2015-03-19 07:19+0000\n"
-"PO-Revision-Date: 2015-03-19 15:20+0800\n"
+"POT-Creation-Date: 2016-01-26 03:23+0000\n"
+"PO-Revision-Date: 2016-01-26 11:24+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -14,13 +14,17 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
 
-#: ./profiles/default/types/activity.xml
+#: ./profiles/default/types/Activity.xml
 msgid "Activity"
 msgstr "動態"
 
-#: ./profiles/default/types/activity.xml
+#: ./profiles/default/types/Activity.xml
 msgid "Activity Type"
 msgstr "動態表單"
+
+#: ./behaviors/configure.zcml:35
+msgid "Adds Image and Image Caption Fields."
+msgstr ""
 
 #: ./vocabularies.py:15
 msgid "American"
@@ -58,6 +62,10 @@ msgstr "雙邊合作"
 msgid "Biography"
 msgstr "人物傳記"
 
+#: ./models/sinology.xml
+msgid "Body Text"
+msgstr "主體內文"
+
 #: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
@@ -67,6 +75,14 @@ msgstr "核定金額"
 #: ./vocabularies.py:32
 msgid "Bulgaria"
 msgstr "保加利亞"
+
+#: ./configure.zcml:32
+msgid "CCKF Content Types"
+msgstr ""
+
+#: ./configure.zcml:32
+msgid "CCKF Content Types Package"
+msgstr ""
 
 #: ./vocabularies.py:33
 msgid "Canada"
@@ -206,6 +222,18 @@ msgstr "芬蘭"
 msgid "France"
 msgstr "法國"
 
+#: ./behaviors/configure.zcml:12
+msgid "Generates Short Name Based on Creation Date."
+msgstr "依照建立時間產生識別碼"
+
+#: ./behaviors/configure.zcml:26
+msgid "Generates Short Name Based on ID."
+msgstr "依照序號欄位產生識別碼"
+
+#: ./behaviors/configure.zcml:19
+msgid "Generates Short Name Based on Serial Number."
+msgstr "依照目錄序號產生識別碼"
+
 #: ./vocabularies.py:43
 msgid "Germany"
 msgstr "德國"
@@ -218,11 +246,11 @@ msgstr "研究生研討會"
 msgid "Graduate Student and Faculty Mobility Grants"
 msgstr "移地研究"
 
-#: ./profiles/default/types/grant.xml
+#: ./profiles/default/types/Grant.xml
 msgid "Grant"
 msgstr "獎助"
 
-#: ./profiles/default/types/grant.xml
+#: ./profiles/default/types/Grant.xml
 msgid "Grant Type"
 msgstr "獎助申請"
 
@@ -230,6 +258,7 @@ msgstr "獎助申請"
 msgid "Greece"
 msgstr "希臘"
 
+#: ./behaviors/configure.zcml:35
 #: ./behaviors/custom.py:16
 msgid "Hint Image"
 msgstr "樣圖"
@@ -334,6 +363,7 @@ msgstr "數位圖書館、資料庫"
 msgid "Library Acquisition Grants"
 msgstr "圖書館補助"
 
+#: ./models/activity.xml
 #: ./models/sinology.xml
 msgid "Link to the Resource."
 msgstr "資源網址"
@@ -362,15 +392,27 @@ msgstr "墨西哥"
 msgid "Mongolia"
 msgstr "蒙古"
 
+#: ./behaviors/configure.zcml:12
+msgid "Name from Creation Date"
+msgstr ""
+
+#: ./behaviors/configure.zcml:26
+msgid "Name from ID"
+msgstr ""
+
+#: ./behaviors/configure.zcml:19
+msgid "Name from Serial Number"
+msgstr ""
+
 #: ./vocabularies.py:63
 msgid "New Zealand"
 msgstr "紐西蘭"
 
-#: ./profiles/default/types/news.xml
+#: ./profiles/default/types/News.xml
 msgid "News"
 msgstr "消息"
 
-#: ./profiles/default/types/news.xml
+#: ./profiles/default/types/News.xml
 msgid "News Type"
 msgstr "消息表單"
 
@@ -464,11 +506,11 @@ msgstr "塞爾維亞"
 msgid "Singapore"
 msgstr "新加坡"
 
-#: ./profiles/default/types/sinology.xml
+#: ./profiles/default/types/Sinology.xml
 msgid "Sinology"
 msgstr "漢學"
 
-#: ./profiles/default/types/sinology.xml
+#: ./profiles/default/types/Sinology.xml
 msgid "Sinology Type"
 msgstr "漢學資源"
 
@@ -539,6 +581,7 @@ msgid "UK"
 msgstr "英國"
 
 #: ./browser/sinology.pt:24
+#: ./models/activity.xml
 #: ./models/sinology.xml
 msgid "URL"
 msgstr "網址"
@@ -588,4 +631,3 @@ msgstr "年度"
 #: ./vocabularies.py:90
 msgid "Yugoslavia"
 msgstr "南斯拉夫"
-

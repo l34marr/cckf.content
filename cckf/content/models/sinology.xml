@@ -7,9 +7,10 @@
 
   <schema>
 
-    <field name="text"
+    <field name="body"
      type="plone.app.textfield.RichText">
-      <title i18n:translate="">Tetx</title>
+      <title i18n:translate="">Body Text</title>
+      <description />
       <required>False</required>
     </field>
     <field name="remoteUrl"

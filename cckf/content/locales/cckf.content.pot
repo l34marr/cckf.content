@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-03-19 07:19+0000\n"
+"POT-Creation-Date: 2016-01-26 03:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,16 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cckf.content\n"
 
-#: ./profiles/default/types/activity.xml
+#: ./profiles/default/types/Activity.xml
 msgid "Activity"
 msgstr ""
 
-#: ./profiles/default/types/activity.xml
+#: ./profiles/default/types/Activity.xml
 msgid "Activity Type"
+msgstr ""
+
+#: ./behaviors/configure.zcml:35
+msgid "Adds Image and Image Caption Fields."
 msgstr ""
 
 #: ./vocabularies.py:15
@@ -61,6 +65,10 @@ msgstr ""
 msgid "Biography"
 msgstr ""
 
+#: ./models/sinology.xml
+msgid "Body Text"
+msgstr ""
+
 #: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
@@ -69,6 +77,14 @@ msgstr ""
 
 #: ./vocabularies.py:32
 msgid "Bulgaria"
+msgstr ""
+
+#: ./configure.zcml:32
+msgid "CCKF Content Types"
+msgstr ""
+
+#: ./configure.zcml:32
+msgid "CCKF Content Types Package"
 msgstr ""
 
 #: ./vocabularies.py:33
@@ -209,6 +225,18 @@ msgstr ""
 msgid "France"
 msgstr ""
 
+#: ./behaviors/configure.zcml:12
+msgid "Generates Short Name Based on Creation Date."
+msgstr ""
+
+#: ./behaviors/configure.zcml:26
+msgid "Generates Short Name Based on ID."
+msgstr ""
+
+#: ./behaviors/configure.zcml:19
+msgid "Generates Short Name Based on Serial Number."
+msgstr ""
+
 #: ./vocabularies.py:43
 msgid "Germany"
 msgstr ""
@@ -221,11 +249,11 @@ msgstr ""
 msgid "Graduate Student and Faculty Mobility Grants"
 msgstr ""
 
-#: ./profiles/default/types/grant.xml
+#: ./profiles/default/types/Grant.xml
 msgid "Grant"
 msgstr ""
 
-#: ./profiles/default/types/grant.xml
+#: ./profiles/default/types/Grant.xml
 msgid "Grant Type"
 msgstr ""
 
@@ -233,6 +261,7 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
+#: ./behaviors/configure.zcml:35
 #: ./behaviors/custom.py:16
 msgid "Hint Image"
 msgstr ""
@@ -337,6 +366,7 @@ msgstr ""
 msgid "Library Acquisition Grants"
 msgstr ""
 
+#: ./models/activity.xml
 #: ./models/sinology.xml
 msgid "Link to the Resource."
 msgstr ""
@@ -365,15 +395,27 @@ msgstr ""
 msgid "Mongolia"
 msgstr ""
 
+#: ./behaviors/configure.zcml:12
+msgid "Name from Creation Date"
+msgstr ""
+
+#: ./behaviors/configure.zcml:26
+msgid "Name from ID"
+msgstr ""
+
+#: ./behaviors/configure.zcml:19
+msgid "Name from Serial Number"
+msgstr ""
+
 #: ./vocabularies.py:63
 msgid "New Zealand"
 msgstr ""
 
-#: ./profiles/default/types/news.xml
+#: ./profiles/default/types/News.xml
 msgid "News"
 msgstr ""
 
-#: ./profiles/default/types/news.xml
+#: ./profiles/default/types/News.xml
 msgid "News Type"
 msgstr ""
 
@@ -467,11 +509,11 @@ msgstr ""
 msgid "Singapore"
 msgstr ""
 
-#: ./profiles/default/types/sinology.xml
+#: ./profiles/default/types/Sinology.xml
 msgid "Sinology"
 msgstr ""
 
-#: ./profiles/default/types/sinology.xml
+#: ./profiles/default/types/Sinology.xml
 msgid "Sinology Type"
 msgstr ""
 
@@ -542,6 +584,7 @@ msgid "UK"
 msgstr ""
 
 #: ./browser/sinology.pt:24
+#: ./models/activity.xml
 #: ./models/sinology.xml
 msgid "URL"
 msgstr ""
@@ -591,4 +634,3 @@ msgstr ""
 #: ./vocabularies.py:90
 msgid "Yugoslavia"
 msgstr ""
-
