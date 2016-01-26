@@ -8,7 +8,7 @@
   <property name="title" i18n:translate="">Activity</property>
   <property name="description"
    i18n:translate="">Activity Type</property>
-  <property name="icon_expr">string:${portal_url}/document_icon.png</property>
+  <property name="icon_expr"></property>
   <property name="factory">Activity</property>
   <property name="add_view_expr">string:${folder_url}/++add++Activity</property>
   <property name="global_allow">True</property>
