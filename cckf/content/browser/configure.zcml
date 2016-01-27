@@ -30,32 +30,4 @@
     template="sinology.pt"
     permission="zope2.View" />
 
-  <!-- browser:page
-    name="aggregate_view"
-    for="plone.app.contenttypes.interfaces.ICollection"
-    class=".collection.AggregateView"
-    template="aggregate_view.pt"
-    permission="zope2.View"
-    menu="plone_displayviews"
-    title="Aggregate View"
-    layer="cckf.theme.browser.interfaces.IThemeSpecific" /-->
-
-  <!-- browser:page
-    name="summary_view"
-    for="plone.app.contenttypes.behaviors.collection.ISyndicatableCollection"
-    class="plone.app.contenttypes.browser.collection.CollectionView"
-    template="summary_view.pt"
-    permission="zope2.View"
-    layer="cckf.theme.browser.interfaces.IThemeSpecific" /-->
-
-  <!-- browser:page
-    name="compact_view"
-    for="plone.app.contenttypes.interfaces.IFolder"
-    class=".folder.CompactView"
-    template="compact_view.pt"
-    permission="zope2.View"
-    menu="plone_displayviews"
-    title="Compact View"
-    layer="cckf.theme.browser.interfaces.IThemeSpecific" /-->
-
 </configure>
