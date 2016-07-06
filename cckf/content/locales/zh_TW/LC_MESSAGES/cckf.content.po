@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2016-01-26 03:23+0000\n"
+"POT-Creation-Date: 2016-07-06 13:50+0000\n"
 "PO-Revision-Date: 2016-01-26 11:24+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
@@ -30,10 +30,6 @@ msgstr ""
 msgid "American"
 msgstr "美洲地區"
 
-#: ./vocabularies.py:148
-msgid "Archive"
-msgstr "網路數位圖書資源"
-
 #: ./vocabularies.py:17
 msgid "Asia-Pacific"
 msgstr "亞太地區"
@@ -58,15 +54,10 @@ msgstr "比利時"
 msgid "Bilateral Cooperation Grants"
 msgstr "雙邊合作"
 
-#: ./vocabularies.py:144
-msgid "Biography"
-msgstr "人物傳記"
-
 #: ./models/sinology.xml
 msgid "Body Text"
 msgstr "主體內文"
 
-#: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
@@ -146,6 +137,10 @@ msgstr "幣別"
 msgid "Czech Republic"
 msgstr "捷克"
 
+#: ./vocabularies.py:141
+msgid "Database"
+msgstr ""
+
 #: ./vocabularies.py:104
 msgid "Database Grants"
 msgstr "資料庫建置"
@@ -163,13 +158,12 @@ msgstr "系所單位"
 msgid "Description"
 msgstr "摘要描述"
 
-#: ./browser/aggregate_view.pt:57
 #: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
 msgstr "主持人"
 
-#: ./vocabularies.py:139
+#: ./vocabularies.py:138
 msgid "Directory"
 msgstr "聯合目錄檢索"
 
@@ -193,10 +187,6 @@ msgstr "博士論文獎學金"
 msgid "Domestic"
 msgstr "國內地區"
 
-#: ./vocabularies.py:146
-msgid "Essay"
-msgstr "學位論文"
-
 #: ./vocabularies.py:40
 msgid "Estonia"
 msgstr "愛沙尼亞"
@@ -204,10 +194,6 @@ msgstr "愛沙尼亞"
 #: ./vocabularies.py:16
 msgid "European"
 msgstr "歐洲地區"
-
-#: ./vocabularies.py:143
-msgid "Family Tree"
-msgstr "家譜族譜"
 
 #: ./browser/grant.pt:56
 #: ./models/grant.xml
@@ -301,9 +287,9 @@ msgstr "印度"
 msgid "Indonesia"
 msgstr "印尼"
 
-#: ./browser/aggregate_view.pt:47
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
+#: ./vocabularies.py:144
 msgid "Institute"
 msgstr "機構"
 
@@ -331,7 +317,7 @@ msgstr "日本"
 msgid "Jordan"
 msgstr "約旦"
 
-#: ./vocabularies.py:145
+#: ./vocabularies.py:143
 msgid "Journal"
 msgstr "期刊論文"
 
@@ -355,7 +341,7 @@ msgstr "拉脫維亞"
 msgid "Lecture Series Grants"
 msgstr "系列講座"
 
-#: ./vocabularies.py:140
+#: ./vocabularies.py:139
 msgid "Library"
 msgstr "數位圖書館、資料庫"
 
@@ -368,7 +354,7 @@ msgstr "圖書館補助"
 msgid "Link to the Resource."
 msgstr "資源網址"
 
-#: ./vocabularies.py:141
+#: ./vocabularies.py:140
 msgid "Literature"
 msgstr "古籍文獻"
 
@@ -408,17 +394,9 @@ msgstr ""
 msgid "New Zealand"
 msgstr "紐西蘭"
 
-#: ./profiles/default/types/News.xml
-msgid "News"
-msgstr "消息"
-
-#: ./profiles/default/types/News.xml
-msgid "News Type"
-msgstr "消息表單"
-
-#: ./vocabularies.py:147
-msgid "Newspapper"
-msgstr "報刊索引"
+#: ./vocabularies.py:142
+msgid "Newspaper"
+msgstr ""
 
 #: ./vocabularies.py:64
 msgid "Norway"
@@ -448,7 +426,6 @@ msgstr "博士後研究"
 msgid "Professor Grants"
 msgstr "教授補助"
 
-#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -461,10 +438,6 @@ msgstr "出版補助"
 #: ./models/grant.xml
 msgid "Region"
 msgstr "國家(地區)"
-
-#: ./vocabularies.py:142
-msgid "Religion"
-msgstr "宗教"
 
 #: ./vocabularies.py:69
 msgid "Republic of China"
@@ -489,10 +462,6 @@ msgstr "俄羅斯"
 #: ./vocabularies.py:117
 msgid "Scholar Grants"
 msgstr "學者補助"
-
-#: ./vocabularies.py:138
-msgid "Selected"
-msgstr "資源選介"
 
 #: ./vocabularies.py:107
 msgid "Senior Scholar Grants"
@@ -559,10 +528,6 @@ msgstr "泰國"
 msgid "The Netherlands"
 msgstr "荷蘭"
 
-#: ./browser/aggregate_view.pt:73
-msgid "There are currently no items in this collection."
-msgstr "這個選集裡沒有任何項目。"
-
 #: ./models/activity.xml
 #: ./models/news.xml
 msgid "Title"
@@ -622,7 +587,6 @@ msgstr "訪問學者"
 msgid "Walter Judd Research Fellowship"
 msgstr "周以德獎助案"
 
-#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"

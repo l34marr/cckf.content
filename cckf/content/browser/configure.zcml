@@ -5,12 +5,6 @@
  xmlns:zcml="http://namespaces.zope.org/zcml">
 
   <browser:page
-    name="news_view"
-    for="cckf.content.interfaces.INews"
-    template="news.pt"
-    permission="zope2.View" />
-
-  <browser:page
     name="activity_view"
     for="cckf.content.interfaces.IActivity"
     template="activity.pt"

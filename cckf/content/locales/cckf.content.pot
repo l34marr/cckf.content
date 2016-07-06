@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-01-26 03:23+0000\n"
+"POT-Creation-Date: 2016-07-06 13:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,10 +33,6 @@ msgstr ""
 msgid "American"
 msgstr ""
 
-#: ./vocabularies.py:148
-msgid "Archive"
-msgstr ""
-
 #: ./vocabularies.py:17
 msgid "Asia-Pacific"
 msgstr ""
@@ -61,15 +57,10 @@ msgstr ""
 msgid "Bilateral Cooperation Grants"
 msgstr ""
 
-#: ./vocabularies.py:144
-msgid "Biography"
-msgstr ""
-
 #: ./models/sinology.xml
 msgid "Body Text"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:62
 #: ./browser/grant.pt:50
 #: ./models/grant.xml
 msgid "Budget"
@@ -149,6 +140,10 @@ msgstr ""
 msgid "Czech Republic"
 msgstr ""
 
+#: ./vocabularies.py:141
+msgid "Database"
+msgstr ""
+
 #: ./vocabularies.py:104
 msgid "Database Grants"
 msgstr ""
@@ -166,13 +161,12 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:57
 #: ./browser/grant.pt:40
 #: ./models/grant.xml
 msgid "Director"
 msgstr ""
 
-#: ./vocabularies.py:139
+#: ./vocabularies.py:138
 msgid "Directory"
 msgstr ""
 
@@ -196,20 +190,12 @@ msgstr ""
 msgid "Domestic"
 msgstr ""
 
-#: ./vocabularies.py:146
-msgid "Essay"
-msgstr ""
-
 #: ./vocabularies.py:40
 msgid "Estonia"
 msgstr ""
 
 #: ./vocabularies.py:16
 msgid "European"
-msgstr ""
-
-#: ./vocabularies.py:143
-msgid "Family Tree"
 msgstr ""
 
 #: ./browser/grant.pt:56
@@ -304,9 +290,9 @@ msgstr ""
 msgid "Indonesia"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:47
 #: ./browser/grant.pt:26
 #: ./models/grant.xml
+#: ./vocabularies.py:144
 msgid "Institute"
 msgstr ""
 
@@ -334,7 +320,7 @@ msgstr ""
 msgid "Jordan"
 msgstr ""
 
-#: ./vocabularies.py:145
+#: ./vocabularies.py:143
 msgid "Journal"
 msgstr ""
 
@@ -358,7 +344,7 @@ msgstr ""
 msgid "Lecture Series Grants"
 msgstr ""
 
-#: ./vocabularies.py:140
+#: ./vocabularies.py:139
 msgid "Library"
 msgstr ""
 
@@ -371,7 +357,7 @@ msgstr ""
 msgid "Link to the Resource."
 msgstr ""
 
-#: ./vocabularies.py:141
+#: ./vocabularies.py:140
 msgid "Literature"
 msgstr ""
 
@@ -411,16 +397,8 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
-#: ./profiles/default/types/News.xml
-msgid "News"
-msgstr ""
-
-#: ./profiles/default/types/News.xml
-msgid "News Type"
-msgstr ""
-
-#: ./vocabularies.py:147
-msgid "Newspapper"
+#: ./vocabularies.py:142
+msgid "Newspaper"
 msgstr ""
 
 #: ./vocabularies.py:64
@@ -451,7 +429,6 @@ msgstr ""
 msgid "Professor Grants"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:40
 #: ./browser/grant.pt:20
 #: ./models/grant.xml
 msgid "Project"
@@ -463,10 +440,6 @@ msgstr ""
 
 #: ./models/grant.xml
 msgid "Region"
-msgstr ""
-
-#: ./vocabularies.py:142
-msgid "Religion"
 msgstr ""
 
 #: ./vocabularies.py:69
@@ -491,10 +464,6 @@ msgstr ""
 
 #: ./vocabularies.py:117
 msgid "Scholar Grants"
-msgstr ""
-
-#: ./vocabularies.py:138
-msgid "Selected"
 msgstr ""
 
 #: ./vocabularies.py:107
@@ -562,10 +531,6 @@ msgstr ""
 msgid "The Netherlands"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:73
-msgid "There are currently no items in this collection."
-msgstr ""
-
 #: ./models/activity.xml
 #: ./models/news.xml
 msgid "Title"
@@ -625,7 +590,6 @@ msgstr ""
 msgid "Walter Judd Research Fellowship"
 msgstr ""
 
-#: ./browser/aggregate_view.pt:35
 #: ./browser/grant.pt:13
 #: ./models/grant.xml
 msgid "Year"
