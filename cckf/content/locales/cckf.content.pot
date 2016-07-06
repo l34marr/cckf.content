@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-07-06 13:50+0000\n"
+"POT-Creation-Date: 2016-07-06 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,10 +23,6 @@ msgstr ""
 
 #: ./profiles/default/types/Activity.xml
 msgid "Activity Type"
-msgstr ""
-
-#: ./behaviors/configure.zcml:35
-msgid "Adds Image and Image Caption Fields."
 msgstr ""
 
 #: ./vocabularies.py:15
@@ -157,7 +153,6 @@ msgid "Department"
 msgstr ""
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Description"
 msgstr ""
 
@@ -247,15 +242,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-#: ./behaviors/configure.zcml:35
-#: ./behaviors/custom.py:16
-msgid "Hint Image"
-msgstr ""
-
-#: ./behaviors/custom.py:22
-msgid "Hint Image Caption"
-msgstr ""
-
 #: ./vocabularies.py:45
 msgid "Hong Kong"
 msgstr ""
@@ -274,12 +260,7 @@ msgid "Id"
 msgstr ""
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Image"
-msgstr ""
-
-#: ./behaviors/custom.py:17
-msgid "Image Size: 800x530"
 msgstr ""
 
 #: ./vocabularies.py:48
@@ -519,7 +500,6 @@ msgid "Switzerland"
 msgstr ""
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Text"
 msgstr ""
 
@@ -532,7 +512,6 @@ msgid "The Netherlands"
 msgstr ""
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Title"
 msgstr ""
 

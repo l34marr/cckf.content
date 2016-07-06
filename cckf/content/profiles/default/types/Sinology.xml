@@ -24,7 +24,6 @@
   <property name="behaviors" purge="false">
     <element value="cckf.content.behaviors.shortname.INameFromSerial" />
     <element value="plone.app.dexterity.behaviors.metadata.IBasic" />
-    <element value="cckf.content.behaviors.custom.IHintImage" />
     <element value="plone.app.dexterity.behaviors.metadata.ICategorization" />
     <element value="plone.app.dexterity.behaviors.metadata.IPublication" />
     <element value="plone.app.dexterity.behaviors.metadata.IOwnership" />

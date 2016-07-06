@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2016-07-06 13:50+0000\n"
+"POT-Creation-Date: 2016-07-06 14:26+0000\n"
 "PO-Revision-Date: 2016-01-26 11:24+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
@@ -21,10 +21,6 @@ msgstr "動態"
 #: ./profiles/default/types/Activity.xml
 msgid "Activity Type"
 msgstr "動態表單"
-
-#: ./behaviors/configure.zcml:35
-msgid "Adds Image and Image Caption Fields."
-msgstr ""
 
 #: ./vocabularies.py:15
 msgid "American"
@@ -154,7 +150,6 @@ msgid "Department"
 msgstr "系所單位"
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Description"
 msgstr "摘要描述"
 
@@ -244,15 +239,6 @@ msgstr "獎助申請"
 msgid "Greece"
 msgstr "希臘"
 
-#: ./behaviors/configure.zcml:35
-#: ./behaviors/custom.py:16
-msgid "Hint Image"
-msgstr "樣圖"
-
-#: ./behaviors/custom.py:22
-msgid "Hint Image Caption"
-msgstr "樣圖說明"
-
 #: ./vocabularies.py:45
 msgid "Hong Kong"
 msgstr "香港"
@@ -271,13 +257,8 @@ msgid "Id"
 msgstr "識別碼"
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Image"
 msgstr "縮圖"
-
-#: ./behaviors/custom.py:17
-msgid "Image Size: 800x530"
-msgstr "圖檔最佳尺寸：800x530 像素"
 
 #: ./vocabularies.py:48
 msgid "India"
@@ -516,7 +497,6 @@ msgid "Switzerland"
 msgstr "瑞士"
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Text"
 msgstr "內文"
 
@@ -529,7 +509,6 @@ msgid "The Netherlands"
 msgstr "荷蘭"
 
 #: ./models/activity.xml
-#: ./models/news.xml
 msgid "Title"
 msgstr "標題"
 
