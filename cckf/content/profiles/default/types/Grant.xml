@@ -26,7 +26,6 @@
     <element value="plone.app.dexterity.behaviors.metadata.ICategorization" />
     <element value="plone.app.dexterity.behaviors.metadata.IPublication" />
     <element value="plone.app.dexterity.behaviors.metadata.IOwnership" />
-    <element value="plone.app.dexterity.behaviors.discussion.IAllowDiscussion" />
     <element value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation" />
     <element value="plone.app.relationfield.behavior.IRelatedItems" />
     <!-- element value="collective.geo.behaviors.interfaces.ICoordinates" /-->
