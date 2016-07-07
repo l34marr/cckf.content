@@ -31,6 +31,13 @@
           <vocabulary>cckf.sinology</vocabulary>
       </value_type>
     </field>
+    <field name="image"
+     type="plone.namedfile.field.NamedBlobImage"
+     lingua:independent="true">
+      <title i18n:translate="">Display Image</title>
+      <description i18n:translate="">Size: 800x530</description>
+      <required>False</required>
+    </field>
 
   </schema>
 

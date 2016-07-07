@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2016-07-07 02:28+0000\n"
-"PO-Revision-Date: 2016-07-07 10:34+0800\n"
+"POT-Creation-Date: 2016-07-07 04:34+0000\n"
+"PO-Revision-Date: 2016-07-07 12:36+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -162,6 +162,10 @@ msgstr "主持人"
 msgid "Directory"
 msgstr "聯合目錄檢索、數位典藏"
 
+#: ./models/sinology.xml
+msgid "Display Image"
+msgstr "圖檔"
+
 #: ./vocabularies.py:123
 msgid "Dissertation Fellowships for ROC Students Abroad"
 msgstr "中華民國留學生博士論文獎學金"
@@ -255,10 +259,6 @@ msgstr "冰島"
 #: ./models/grant.xml
 msgid "Id"
 msgstr "識別碼"
-
-#: ./models/activity.xml
-msgid "Image"
-msgstr "縮圖"
 
 #: ./vocabularies.py:48
 msgid "India"
@@ -462,6 +462,10 @@ msgstr "漢學"
 msgid "Sinology Type"
 msgstr "漢學資源"
 
+#: ./models/sinology.xml
+msgid "Size: 800x530"
+msgstr "最佳尺寸: 800x530"
+
 #: ./vocabularies.py:74
 msgid "Slovakia"
 msgstr "斯洛伐克"
@@ -543,10 +547,6 @@ msgstr "烏干達"
 #: ./vocabularies.py:85
 msgid "Ukraine"
 msgstr "烏克蘭"
-
-#: ./models/activity.xml
-msgid "Upload Lead Image."
-msgstr "圖檔尺寸 104x104 像素。"
 
 #: ./vocabularies.py:88
 msgid "Uzbekistan"

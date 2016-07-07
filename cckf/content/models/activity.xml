@@ -35,12 +35,6 @@
     <description />
     <required>False</required>
   </field>
-  <field name="image"
-   type="plone.namedfile.field.NamedBlobImage">
-    <title i18n:translate="">Image</title>
-    <description i18n:translate="">Upload Lead Image.</description>
-    <required>False</required>
-  </field>
 
 </schema>
 
