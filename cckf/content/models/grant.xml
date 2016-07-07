@@ -26,7 +26,7 @@
   </field>
   <field name="description"
    type="zope.schema.Text">
-    <title i18n:translate="">Institute</title>
+    <title i18n:translate="g_institute">Institute</title>
     <required>False</required>
   </field>
   <field name="department"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cckf.content\n"
-"POT-Creation-Date: 2016-07-06 14:26+0000\n"
-"PO-Revision-Date: 2016-01-26 11:24+0800\n"
+"POT-Creation-Date: 2016-07-07 02:28+0000\n"
+"PO-Revision-Date: 2016-07-07 10:34+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -135,7 +135,7 @@ msgstr "捷克"
 
 #: ./vocabularies.py:141
 msgid "Database"
-msgstr ""
+msgstr "資料庫"
 
 #: ./vocabularies.py:104
 msgid "Database Grants"
@@ -160,7 +160,7 @@ msgstr "主持人"
 
 #: ./vocabularies.py:138
 msgid "Directory"
-msgstr "聯合目錄檢索"
+msgstr "聯合目錄檢索、數位典藏"
 
 #: ./vocabularies.py:123
 msgid "Dissertation Fellowships for ROC Students Abroad"
@@ -268,11 +268,9 @@ msgstr "印度"
 msgid "Indonesia"
 msgstr "印尼"
 
-#: ./browser/grant.pt:26
-#: ./models/grant.xml
 #: ./vocabularies.py:144
 msgid "Institute"
-msgstr "機構"
+msgstr "學術機構"
 
 #: ./vocabularies.py:106
 msgid "Institutional Enhancement Grants"
@@ -300,7 +298,7 @@ msgstr "約旦"
 
 #: ./vocabularies.py:143
 msgid "Journal"
-msgstr "期刊論文"
+msgstr "期刊論文、學位論文"
 
 #: ./vocabularies.py:118
 msgid "Junior Scholar Grants"
@@ -324,7 +322,7 @@ msgstr "系列講座"
 
 #: ./vocabularies.py:139
 msgid "Library"
-msgstr "數位圖書館、資料庫"
+msgstr "數位圖書館"
 
 #: ./vocabularies.py:108
 msgid "Library Acquisition Grants"
@@ -377,7 +375,7 @@ msgstr "紐西蘭"
 
 #: ./vocabularies.py:142
 msgid "Newspaper"
-msgstr ""
+msgstr "報刊"
 
 #: ./vocabularies.py:64
 msgid "Norway"
@@ -574,3 +572,9 @@ msgstr "年度"
 #: ./vocabularies.py:90
 msgid "Yugoslavia"
 msgstr "南斯拉夫"
+
+#. Default: "Institute"
+#: ./browser/grant.pt:26
+#: ./models/grant.xml
+msgid "g_institute"
+msgstr "機構"

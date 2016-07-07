@@ -23,7 +23,7 @@
 </metal:title>
 <metal:description fill-slot="content-description">
 <div tal:condition="context/description">
-<label class="fieldHead" i18n:translate="">Institute</label>
+<label class="fieldHead" i18n:translate="g_institute">Institute</label>
 <span class="forText">:</span>
 <span tal:replace="context/description" />
 <tal:dept condition="context/department">
