@@ -36,7 +36,7 @@
   <span tal:repeat="c context/classify">
     <a href="" class="link-category"
      tal:content="python:view.t_title('cckf.sinology',c)"
-     tal:attributes="href string:${context/@@plone_portal_state/navigation_root_url}/sinology/facet#c1=sinology&c4=${c}">
+     tal:attributes="href string:${context/@@plone_portal_state/navigation_root_url}/sino/search#c1=Sinology&c4=${c}">
       Classify
       </a><span class="separator" tal:condition="not: repeat/c/end">,</span>
   </span>
