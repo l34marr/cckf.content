@@ -49,8 +49,7 @@
 <div tal:condition="context/budget">
 <label class="fieldHead" i18n:translate="">Budget</label>
 <span class="forText">:</span>
-<span tal:replace="context/currency" />
-<span tal:replace="context/budget" />
+<span tal:replace="context/currency" /><span tal:replace="context/budget" />
 </div>
 <div tal:condition="context/file">
 <label class="fieldHead" i18n:translate="">File</label>
